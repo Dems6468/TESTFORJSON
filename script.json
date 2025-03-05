@@ -1,5 +1,4 @@
-// Charger le fichier JSON et afficher la liste des utilisateurs
-fetch('data.json')
+fetch('https://ton-nom-utilisateur.github.io/mon-projet-json/data.json') // Utilise l'URL complète
     .then(response => response.json()) // Convertir la réponse en JSON
     .then(data => {
         const utilisateurs = data.utilisateurs;  // Accéder à la liste d'utilisateurs
