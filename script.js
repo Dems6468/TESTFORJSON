@@ -1,16 +1,13 @@
-fetch('https://ton-nom-utilisateur.github.io/mon-projet-json/data.json') // Utilise l'URL complète
-    .then(response => response.json()) // Convertir la réponse en JSON
+fetch('data.json')
+    .then(response => response.json())  // Convertir la réponse en JSON
     .then(data => {
-        const utilisateurs = data.utilisateurs;  // Accéder à la liste d'utilisateurs
+        const utilisateurs = data.utilisateurs;
         const utilisateursDiv = document.getElementById('utilisateurs-list');
         
         utilisateurs.forEach(utilisateur => {
-            // Créer un nouvel élément div pour chaque utilisateur
             const div = document.createElement('div');
             div.classList.add('utilisateur');
             div.innerHTML = `<strong>${utilisateur.nom}</strong> - Age: ${utilisateur.age}`;
-            
-            // Ajouter cet élément au conteneur sur la page
             utilisateursDiv.appendChild(div);
         });
     })
