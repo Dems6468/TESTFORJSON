@@ -1,0 +1,29 @@
+/* Style de base pour la page */
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+/* Style du titre */
+h1 {
+    color: #333;
+}
+
+/* Style de la liste des utilisateurs */
+#utilisateurs-list {
+    margin-top: 20px;
+}
+
+/* Style de chaque utilisateur */
+.utilisateur {
+    padding: 15px;
+    background-color: #fff;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.utilisateur strong {
+    color: #333;
+}
