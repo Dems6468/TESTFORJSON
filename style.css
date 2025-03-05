@@ -27,3 +27,13 @@ h1 {
 .utilisateur strong {
     color: #333;
 }
+.personnage {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+}
+
+.personnage img {
+  width: 100px;
+  height: 100px;
+}
