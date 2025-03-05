@@ -1,7 +1,28 @@
 {
-  "utilisateurs": [
-    { "nom": "John", "age": 30 },
-    { "nom": "Alice", "age": 25 },
-    { "nom": "Bob", "age": 35 }
+  "personnages": [
+    {
+      "nom": "John Doe",
+      "age": 30,
+      "profession": ["Héros", "Scientifique"],
+      "origine": ["Terre"],
+      "image": "john_doe.jpg",
+      "description": "Un héros et un scientifique."
+    },
+    {
+      "nom": "Alice Smith",
+      "age": 25,
+      "profession": ["Magicienne"],
+      "origine": ["Autre dimension"],
+      "image": "alice_smith.jpg",
+      "description": "Une magicienne puissante."
+    },
+    {
+      "nom": "Bob Johnson",
+      "age": 35,
+      "profession": ["Scientifique"],
+      "origine": ["Terre", "Mars"],
+      "image": "bob_johnson.jpg",
+      "description": "Un scientifique brillant, originaire de la Terre et de Mars."
+    }
   ]
 }
