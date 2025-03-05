@@ -1,15 +1,43 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Liste des utilisateurs</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Liste des Personnages</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Liste des utilisateurs</h1>
-    <div id="utilisateurs-list"></div>
 
-    <script src="script.js"></script>
+  <h1>Liste des Personnages</h1>
+
+  <!-- Filtres -->
+  <div id="filters">
+    <select id="filter-age">
+      <option value="all">Tous les âges</option>
+      <option value="20-30">20-30 ans</option>
+      <option value="30-40">30-40 ans</option>
+    </select>
+
+    <select id="filter-profession">
+      <option value="all">Toutes les professions</option>
+      <option value="Héros">Héros</option>
+      <option value="Scientifique">Scientifique</option>
+      <option value="Magicienne">Magicienne</option>
+    </select>
+
+    <select id="filter-origine">
+      <option value="all">Toutes les origines</option>
+      <option value="Terre">Terre</option>
+      <option value="Autre dimension">Autre dimension</option>
+      <option value="Mars">Mars</option>
+    </select>
+
+    <button id="sort-alpha">Trier par ordre alphabétique</button>
+  </div>
+
+  <!-- Liste des personnages -->
+  <div id="personnages-list"></div>
+
+  <script src="script.js"></script>
 </body>
 </html>
