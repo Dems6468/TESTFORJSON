@@ -1,56 +1,55 @@
-document.addEventListener('DOMContentLoaded', function () {
-    // Charger les données JSON
-    fetch('data.json')
+// Fetch character data from the external JSON file
+function fetchCharacterData() {
+    fetch('data.json') // The path to your JSON file
         .then(response => response.json())
         .then(data => {
-            const container = document.getElementById('characters-container');
+            // Log the data to check its structure
+            console.log("Character Data:", data);
 
-            // Générer les cartes pour chaque personnage
-            data.forEach(character => {
-                const card = document.createElement('div');
-                card.classList.add('card');
-                card.setAttribute('data-name', character['Champion Name']);  // Accès avec la clé correcte
-                card.setAttribute('data-class', character['Class']);  // Utilisation de la clé "Class"
-                card.setAttribute('data-immunities', JSON.stringify(character['Immunities']));  // Utilisation de "Immunities"
-                card.setAttribute('data-photo', character['Photos'][0]);  // Utilisation de "Photos", ici on prend la première photo
-
-                card.innerHTML = `
-                    <img src="${character['Photos'][0]}" alt="${character['Champion Name']}" class="photo">
-                    <div class="info">
-                        <h3>${character['Champion Name']}</h3>
-                        <div class="class" style="background-color: #8e44ad;">${character['Class']}</div>
-                    </div>
-                `;
-
-                // Ajouter l'événement de clic pour ouvrir le modal
-                card.addEventListener('click', function () {
-                    openModal(character);
-                });
-
-                container.appendChild(card);
-            });
+            // After loading the data, display the characters
+            displayCharacters(data);
         })
-        .catch(error => console.error('Erreur lors du chargement du JSON:', error));
+        .catch(error => {
+            console.error("Error loading the JSON data:", error);
+        });
+}
 
-    // Modal
-    const modal = document.getElementById('modal');
-    const closeBtn = document.querySelector('.close-btn');
+function createCharacterCard(character) {
+    const card = document.createElement('div');
+    card.classList.add('card');
 
-    function openModal(character) {
-        document.getElementById('modal-name').textContent = character['Champion Name'];
-        document.getElementById('modal-class').textContent = character['Class'];
-        document.getElementById('modal-immunities').textContent = JSON.stringify(character['Immunities'], null, 2);
-        document.getElementById('modal-photo').src = character['Photos'][0];  // Affichage de la photo dans le modal
-        modal.style.display = 'block';
-    }
+    // Debugging: Log the character to see what data is available
+    console.log("Character:", character);
 
-    closeBtn.addEventListener('click', function () {
-        modal.style.display = 'none';
+    const cardImage = document.createElement('img');
+    cardImage.src = character["Emplacements Photos"] || "https://via.placeholder.com/150"; // Default image if none is provided
+    cardImage.alt = character["Champion Name"];
+    card.appendChild(cardImage);
+
+    const cardTitle = document.createElement('h3');
+    cardTitle.textContent = character["Champion Name"]; // Make sure the property name matches exactly
+    card.appendChild(cardTitle);
+
+    const cardClass = document.createElement('p');
+    cardClass.textContent = `Class: ${character.Class}`;
+    card.appendChild(cardClass);
+
+    const cardImmunities = document.createElement('p');
+    cardImmunities.textContent = `Immunities: ${Object.keys(character.Immunities).join(", ")}`;
+    card.appendChild(cardImmunities);
+
+    return card;
+}
+
+function displayCharacters(characters) {
+    const container = document.getElementById('cards-container');
+    container.innerHTML = '';  // Clear any existing content
+
+    characters.forEach(character => {
+        const card = createCharacterCard(character);
+        container.appendChild(card);
     });
+}
 
-    window.addEventListener('click', function (event) {
-        if (event.target === modal) {
-            modal.style.display = 'none';
-        }
-    });
-});
+// Call the function to fetch and display characters when the page loads
+window.onload = fetchCharacterData;
