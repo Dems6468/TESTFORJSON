@@ -35,6 +35,7 @@ fetch('data.json')
 
             // Parcourir les immunités
             for (const [immunite, details] of Object.entries(personnage.immunite)) {
+                // Créer un élément pour chaque immunité
                 const immuniteElement = document.createElement('p');
                 immuniteElement.textContent = immunite; // Affiche juste le nom de l'immunité (ex: "Poison")
 
@@ -45,15 +46,16 @@ fetch('data.json')
                     detailsElement.style.color = 'blue';
                     detailsElement.style.cursor = 'pointer';
                     detailsElement.textContent = ` (${details.join(", ")})`; // Affiche les détails après le nom de l'immunité
+
                     immuniteElement.appendChild(detailsElement);
 
                     // Ajouter un événement de clic pour afficher plus d'informations si besoin
                     detailsElement.addEventListener('click', () => {
-                        // Afficher les détails complets lorsque l'on clique
+                        // Créer un élément qui montre les détails sous forme d'info
                         const fullDetails = document.createElement('span');
                         fullDetails.textContent = ` : ${details.join(", ")}`;
+                        fullDetails.style.color = 'green'; // Change la couleur pour signaler les détails
                         immuniteElement.appendChild(fullDetails);
-                        immuniteElement.style.color = 'green'; // Change la couleur pour signaler que c'est cliquable
                     });
                 } else {
                     // Si l'immunité n'a pas de détail spécifique, afficher "Aucun détail"
