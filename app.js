@@ -44,7 +44,7 @@ fetch('data.json')
                 detailsTooltip.classList.add('details-tooltip');
                 detailsTooltip.style.display = 'none'; // On cache les détails par défaut
 
-                // Si l'immunité a des détails (une valeur spécifique)
+                // Ajouter les détails uniquement s'il y en a
                 if (details.length > 0) {
                     // Ajouter les détails à afficher dans le tooltip
                     detailsTooltip.textContent = details.join(", ");
