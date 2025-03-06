@@ -72,7 +72,7 @@ fetch('data.json')
                         // Positionner le tooltip sous l'élément d'immunité
                         const rect = immuniteElement.getBoundingClientRect();
                         detailsTooltip.style.left = `${rect.left}px`;
-                        detailsTooltip.style.top = `${rect.bottom + window.scrollY}px`; // Juste sous l'élément
+                        detailsTooltip.style.top = `${rect.bottom + window.scrollY + 5}px`; // Juste sous l'élément
                     } else {
                         detailsTooltip.style.display = 'none';
                     }
