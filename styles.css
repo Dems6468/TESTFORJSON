@@ -1,48 +1,56 @@
-/* style.css */
 body {
     font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
     margin: 0;
     padding: 0;
-    background-color: #f0f0f0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
 }
 
 h1 {
-    text-align: center;
+    color: #333;
     margin-top: 20px;
 }
 
-.grid-container {
+.personnages-list {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
     gap: 20px;
     padding: 20px;
 }
 
-.card {
+.personnage-card {
     background-color: white;
-    border-radius: 10px;
+    border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-    text-align: center;
+    overflow: hidden;
     transition: transform 0.3s;
 }
 
-.card:hover {
+.personnage-card:hover {
     transform: scale(1.05);
 }
 
-.card img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 10px;
+.personnage-image img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
 }
 
-.card h3 {
-    font-size: 1.2em;
-    margin: 10px 0;
+.personnage-info {
+    padding: 15px;
 }
 
-.card p {
-    font-size: 0.9em;
+.personnage-info h3 {
+    margin: 0;
+    color: #333;
+}
+
+.personnage-info p {
     color: #555;
+    margin: 5px 0;
 }
