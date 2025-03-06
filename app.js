@@ -53,21 +53,29 @@ fetch('data.json')
 
                 immuniteElement.appendChild(detailsTooltip);
 
-                // Ajouter un événement de survol pour afficher le tooltip
-                immuniteElement.addEventListener('mouseenter', (event) => {
+                // Ajouter un événement de clic pour afficher/masquer les détails
+                immuniteElement.addEventListener('click', (event) => {
                     event.stopPropagation(); // Empêche la propagation du clic pour ne pas fermer immédiatement le tooltip
 
-                    // Positionner dynamiquement le tooltip sous l'immunité
-                    const rect = immuniteElement.getBoundingClientRect();
-                    detailsTooltip.style.left = `${rect.left}px`;
-                    detailsTooltip.style.top = `${rect.bottom + window.scrollY}px`; // Juste sous l'élément
+                    // Fermer tous les tooltips ouverts
+                    const allTooltips = document.querySelectorAll('.details-tooltip');
+                    allTooltips.forEach(tooltip => {
+                        if (tooltip !== detailsTooltip) {
+                            tooltip.style.display = 'none';
+                        }
+                    });
 
-                    detailsTooltip.style.display = 'block'; // Afficher le tooltip
-                });
+                    // Toggle l'affichage du tooltip de l'immunité cliquée
+                    if (detailsTooltip.style.display === 'none') {
+                        detailsTooltip.style.display = 'block';
 
-                // Ajouter un événement de survol pour masquer le tooltip
-                immuniteElement.addEventListener('mouseleave', () => {
-                    detailsTooltip.style.display = 'none'; // Masquer le tooltip
+                        // Positionner le tooltip sous l'élément d'immunité
+                        const rect = immuniteElement.getBoundingClientRect();
+                        detailsTooltip.style.left = `${rect.left}px`;
+                        detailsTooltip.style.top = `${rect.bottom + window.scrollY}px`; // Juste sous l'élément
+                    } else {
+                        detailsTooltip.style.display = 'none';
+                    }
                 });
 
                 immunitesDiv.appendChild(immuniteElement);
@@ -83,3 +91,11 @@ fetch('data.json')
     });
   })
   .catch(error => console.error('Erreur de chargement des données:', error));
+
+// Fermer les tooltips quand on clique ailleurs sur la page
+document.addEventListener('click', () => {
+    const allTooltips = document.querySelectorAll('.details-tooltip');
+    allTooltips.forEach(tooltip => {
+        tooltip.style.display = 'none';
+    });
+});
