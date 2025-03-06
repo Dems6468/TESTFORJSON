@@ -50,15 +50,14 @@ fetch('data.json')
                 } else {
                     detailsTooltip.textContent = "Aucun détail disponible";
                 }
-                
+
                 immuniteElement.appendChild(detailsTooltip);
 
                 // Ajouter un événement de clic pour afficher/masquer les détails
                 immuniteElement.addEventListener('click', (event) => {
-                    // Empêcher la propagation du clic pour ne pas fermer immédiatement le tooltip
-                    event.stopPropagation();
+                    event.stopPropagation(); // Empêche la propagation du clic pour ne pas fermer immédiatement le tooltip
 
-                    // Fermer tous les tooltips ouverts
+                    // Cache tous les autres tooltips ouverts
                     const allTooltips = document.querySelectorAll('.details-tooltip');
                     allTooltips.forEach(tooltip => {
                         if (tooltip !== detailsTooltip) {
@@ -66,20 +65,9 @@ fetch('data.json')
                         }
                     });
 
-                    // Toggle l'affichage du tooltip de l'immunité cliquée
+                    // Afficher/masquer le tooltip de l'immunité cliquée
                     if (detailsTooltip.style.display === 'none') {
                         detailsTooltip.style.display = 'block';
-
-                        // Vérifier la position de l'immunité et ajuster le tooltip
-                        const rect = immuniteElement.getBoundingClientRect();
-                        const tooltipRect = detailsTooltip.getBoundingClientRect();
-
-                        // Si le tooltip dépasse la fenêtre en bas, on l'affiche en haut
-                        if (window.innerHeight - rect.bottom < tooltipRect.height) {
-                            detailsTooltip.style.top = `-100%`; // Afficher le tooltip au-dessus
-                        } else {
-                            detailsTooltip.style.top = '100%'; // Afficher le tooltip en dessous (par défaut)
-                        }
                     } else {
                         detailsTooltip.style.display = 'none';
                     }
@@ -96,13 +84,16 @@ fetch('data.json')
         card.appendChild(infoDiv);
         personnagesList.appendChild(card);
     });
-})
+  })
   .catch(error => console.error('Erreur de chargement des données:', error));
 
-// Fermer les tooltips quand on clique ailleurs sur la page
-document.addEventListener('click', () => {
+// Fermer tous les tooltips quand on clique ailleurs sur la page
+document.addEventListener('click', (event) => {
     const allTooltips = document.querySelectorAll('.details-tooltip');
     allTooltips.forEach(tooltip => {
-        tooltip.style.display = 'none';
+        // Fermer tous les tooltips sauf ceux qui ont été cliqués
+        if (!tooltip.contains(event.target)) {
+            tooltip.style.display = 'none';
+        }
     });
 });
