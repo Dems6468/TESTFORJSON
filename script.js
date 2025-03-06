@@ -9,15 +9,15 @@ document.addEventListener('DOMContentLoaded', function () {
             data.forEach(character => {
                 const card = document.createElement('div');
                 card.classList.add('card');
-                card.setAttribute('data-name', character.name);
-                card.setAttribute('data-class', character.class);
-                card.setAttribute('data-immunities', JSON.stringify(character.immunities));
-                card.setAttribute('data-photo', character.photo);
+                card.setAttribute('data-name', character[ChampionName]);
+                card.setAttribute('data-class', character.Class);
+                card.setAttribute('data-immunities', JSON.stringify(character.Immunities));
+                card.setAttribute('data-photo', character.Photos);
 
                 card.innerHTML = `
-                    <img src="${character.photo}" alt="${character.name}" class="photo">
+                    <img src="${character.Photos}" alt="${character.name}" class="Photos">
                     <div class="info">
-                        <h3>${character.name}</h3>
+                        <h3>${character[ChampionName]}</h3>
                         <div class="class" style="background-color: #8e44ad;">${character.class}</div>
                     </div>
                 `;
@@ -37,10 +37,10 @@ document.addEventListener('DOMContentLoaded', function () {
     const closeBtn = document.querySelector('.close-btn');
 
     function openModal(character) {
-        document.getElementById('modal-name').textContent = character.name;
-        document.getElementById('modal-class').textContent = character.class;
-        document.getElementById('modal-immunities').textContent = JSON.stringify(character.immunities, null, 2);
-        document.getElementById('modal-photo').src = character.photo;
+        document.getElementById('modal-name').textContent =character[ChampionName];
+        document.getElementById('modal-class').textContent = character.Class;
+        document.getElementById('modal-immunities').textContent = JSON.stringify(character.Immunities, null, 2);
+        document.getElementById('modal-photo').src = character.Photos;
         modal.style.display = 'block';
     }
 
