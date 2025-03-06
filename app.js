@@ -52,7 +52,10 @@ fetch('data.json')
 
                     // Ajouter un événement de clic pour afficher/masquer les détails
                     immuniteElement.addEventListener('click', (event) => {
-                        // On ferme tous les tooltips ouverts
+                        // Empêcher la propagation du clic pour ne pas fermer immédiatement le tooltip
+                        event.stopPropagation();
+
+                        // Fermer tous les tooltips ouverts
                         const allTooltips = document.querySelectorAll('.details-tooltip');
                         allTooltips.forEach(tooltip => {
                             if (tooltip !== detailsTooltip) {
@@ -66,9 +69,6 @@ fetch('data.json')
                         } else {
                             detailsTooltip.style.display = 'none';
                         }
-
-                        // Empêcher la propagation du clic pour ne pas fermer les détails immédiatement
-                        event.stopPropagation();
                     });
                 } else {
                     // Si l'immunité n'a pas de détail spécifique, afficher "Aucun détail"
@@ -91,7 +91,7 @@ fetch('data.json')
 })
   .catch(error => console.error('Erreur de chargement des données:', error));
 
-// Fermer les tooltips quand on clique ailleurs
+// Fermer les tooltips quand on clique ailleurs sur la page
 document.addEventListener('click', () => {
     const allTooltips = document.querySelectorAll('.details-tooltip');
     allTooltips.forEach(tooltip => {
