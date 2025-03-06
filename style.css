@@ -54,3 +54,18 @@ h1 {
     color: #555;
     margin: 5px 0;
 }
+.immunites p {
+    cursor: pointer;
+    color: #333;
+    transition: color 0.3s ease;
+}
+
+.immunites p:hover {
+    color: #007bff; /* Change la couleur lorsque l'on survole l'immunité */
+}
+
+.immunites span {
+    font-style: italic;
+    color: green;
+}
+
