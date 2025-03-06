@@ -39,23 +39,36 @@ fetch('data.json')
                 const immuniteElement = document.createElement('p');
                 immuniteElement.textContent = immunite; // Affiche juste le nom de l'immunité (ex: "Poison")
 
+                // Créer un élément pour afficher les détails sous forme de tooltip (initialement caché)
+                const detailsTooltip = document.createElement('div');
+                detailsTooltip.classList.add('details-tooltip');
+                detailsTooltip.style.display = 'none'; // On cache les détails par défaut
+
                 // Si l'immunité a des détails (une valeur spécifique)
                 if (details.length > 0) {
-                    // Créer un lien cliquable pour afficher les détails
-                    const detailsElement = document.createElement('span');
-                    detailsElement.style.color = 'blue';
-                    detailsElement.style.cursor = 'pointer';
-                    detailsElement.textContent = ` (${details.join(", ")})`; // Affiche les détails après le nom de l'immunité
+                    // Ajouter les détails à afficher dans le tooltip
+                    detailsTooltip.textContent = details.join(", ");
+                    immuniteElement.appendChild(detailsTooltip);
 
-                    immuniteElement.appendChild(detailsElement);
+                    // Ajouter un événement de clic pour afficher/masquer les détails
+                    immuniteElement.addEventListener('click', (event) => {
+                        // On ferme tous les tooltips ouverts
+                        const allTooltips = document.querySelectorAll('.details-tooltip');
+                        allTooltips.forEach(tooltip => {
+                            if (tooltip !== detailsTooltip) {
+                                tooltip.style.display = 'none';
+                            }
+                        });
 
-                    // Ajouter un événement de clic pour afficher plus d'informations si besoin
-                    detailsElement.addEventListener('click', () => {
-                        // Créer un élément qui montre les détails sous forme d'info
-                        const fullDetails = document.createElement('span');
-                        fullDetails.textContent = ` : ${details.join(", ")}`;
-                        fullDetails.style.color = 'green'; // Change la couleur pour signaler les détails
-                        immuniteElement.appendChild(fullDetails);
+                        // Toggle l'affichage du tooltip de l'immunité cliquée
+                        if (detailsTooltip.style.display === 'none') {
+                            detailsTooltip.style.display = 'block';
+                        } else {
+                            detailsTooltip.style.display = 'none';
+                        }
+
+                        // Empêcher la propagation du clic pour ne pas fermer les détails immédiatement
+                        event.stopPropagation();
                     });
                 } else {
                     // Si l'immunité n'a pas de détail spécifique, afficher "Aucun détail"
@@ -77,3 +90,11 @@ fetch('data.json')
     });
 })
   .catch(error => console.error('Erreur de chargement des données:', error));
+
+// Fermer les tooltips quand on clique ailleurs
+document.addEventListener('click', () => {
+    const allTooltips = document.querySelectorAll('.details-tooltip');
+    allTooltips.forEach(tooltip => {
+        tooltip.style.display = 'none';
+    });
+});
