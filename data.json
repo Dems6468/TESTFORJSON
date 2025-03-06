@@ -1,23 +1,2060 @@
 [
     {
-        "Champion Name": "Abomination",
-        "Short Name": "Abomination",
-        "Class": "Science",
-        "Immunities": {
-            "Poison": []
-        },
-        "Emplacements Photos": "faces",
-        "Photos": []
-    },
+        "Nom": "Abomination", 
+        "NomCourt": "Abomination", 
+        "Classe": "Science", 
+        "immunite": {"Poison": []}, 
+        "photo": "download.jpg"
+    }, 
     {
-        "Champion Name": "Hulk",
-        "Short Name": "Hulk",
-        "Class": "Mutant",
-        "Immunities": {
-            "Poison": [],
-            "Bleed": []
-        },
-        "Emplacements Photos": "hulk-face",
-        "Photos": []
+        "Nom": "Abomination (Immortal)", 
+        "NomCourt": "Abomination", 
+        "Classe": "Science", 
+        "immunite": {"Poison": ["100% Resistance"]}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Absorbing Man", 
+        "NomCourt": "Absorbing Man", 
+        "Classe": "Mystic", 
+        "immunite": {"Armor Break": [], "Armor Shatter": [], "Bleed": ["Black Uru Form, SP1"], "Shock": ["Black Uru Form, SP1"], "Incinerate": ["Magma Form, SP2"], "Coldsnap": ["Magma Form, SP2"], "Frostbite": ["Magma Form, SP2"], "Poison": ["Synergy [Abomination Immortal, Hulk Immortal]"]}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Adam Warlock", 
+        "NomCourt": "Adam Warlock", 
+        "Classe": "Cosmic", 
+        "immunite": {"Nullify": ["Sovereignty Buff"], "Stagger": ["Sovereignty Buff"], "Fate Seal": ["Sovereignty Buff"], "Stun": ["Sovereignty Buff ? 100% Parry Stun Ability Accuracy Reduction"], "Shock": ["Stasis Pod"], "Incinerate": ["Stasis Pod"], "Coldsnap": ["Stasis Pod"], "Frostbite": ["Stasis Pod"], "Ability Power Rate Reduction": ["Against Non-Mystic"]}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Aegon", 
+        "NomCourt": "Aegon", 
+        "Classe": "Skill", 
+        "immunite": {}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Agent Venom", 
+        "NomCourt": "Agent Venom", 
+        "Classe": "Skill", 
+        "immunite": {}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Air-Walker", 
+        "NomCourt": "Air-Walker", 
+        "Classe": "Cosmic", 
+        "immunite": {"Power Drain": ["Against Tech & The Dark Tide ? 70% Less Potency and Duration"], "Power Lock": ["Against Tech & The Dark Tide ? 70% Less Potency and Duration"], "Power Burn": ["Against Tech & The Dark Tide ? 70% Less Potency and Duration"]}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "America Chavez", 
+        "NomCourt": "America Chavez", 
+        "Classe": "Mystic", 
+        "immunite": {"Bleed": ["Synergy [Purgatory] & Synergy [Mephisto, The Hood, Magik, Dormammu]"]}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Angela", 
+        "NomCourt": "Angela", 
+        "Classe": "Cosmic", 
+        "immunite": {"Nullify": ["10-35% Nullify Ability Accuracy Reduction per Buff"]}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Annihilus", 
+        "NomCourt": "Annihilus", 
+        "Classe": "Cosmic", 
+        "immunite": {"Incinerate": ["Cosmic Control Rod"], "Coldsnap": ["Cosmic Control Rod"], "Frostbite": ["Cosmic Control Rod"], "Power Drain": ["Cosmic Control Rod"], "Power Burn": ["Cosmic Control Rod"], "Power Steal": ["Cosmic Control Rod"], "Power Lock": ["Cosmic Control Rod"], "Enervate": ["Cosmic Control Rod"], "Stun": ["While Attacking ? 60%"]}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Ant-Man", 
+        "NomCourt": "Ant-Man", 
+        "Classe": "Science", 
+        "immunite": {"Buffs": [], "Shock": [], "Poison": []}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Ant-Man (Future)", 
+        "NomCourt": "Ant-Man", 
+        "Classe": "Tech", 
+        "immunite": {"Bleed": ["Dupe ? 10-90% Duration Reduction", "Synergy [Purgatory] & Synergy [Mephisto, The Hood, Magik, Dormammu]"], "Incinerate": ["Dupe ? 10-90% Duration Reduction"], "Shock": ["Synergy [Odin, Ultron] & 60% Duration Reduction"]}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Anti-Venom", 
+        "NomCourt": "Anti-Venom", 
+        "Classe": "Science", 
+        "immunite": {"Incinerate": [], "Poison": [], "Buffs": ["Synergy [Spiderman 2099, Doctor Octopus] & only for 10s"]}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Apocalypse", 
+        "NomCourt": "Apocalypse", 
+        "Classe": "Mutant", 
+        "immunite": {"Bleed": ["8s"], "Incinerate": ["8s"], "Disorient": ["8s"], "Stun": ["3+ Charges"]}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Arcade", 
+        "NomCourt": "Arcade", 
+        "Classe": "Tech", 
+        "immunite": {"Incinerate": ["Power-Up Pre-Fight & Non-Cosmic Opponent", "As a Defender & Non-Cosmic Opponent"], "Poison": ["Cheat Code Pre-Fight & Non-Cosmic Opponent", "As a Defender & Non-Cosmic Opponent"], "Shock": ["Game Wizard Pre-Fight & Non-Cosmic Opponent", "As a Defender & Non-Cosmic Opponent"]}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Archangel", 
+        "NomCourt": "Archangel", 
+        "Classe": "Mutant", 
+        "immunite": {"Ability Accuracy Reduction": []}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Arnim Zola", 
+        "NomCourt": "Arnim Zola", 
+        "Classe": "Tech", 
+        "immunite": {"Bleed": [], "Poison": [], "Ability Accuracy Modification": [], "Combat Power Rate Modification": []}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Attuma", 
+        "NomCourt": "Attuma", 
+        "Classe": "Skill", 
+        "immunite": {"Ability Accuracy Reduction": ["Modification is reversed"], "Bleed": ["Dupe ? 50-90% Resistance"], "Incinerate": ["3+ Hydration"], "Regeneration Rate Modification": []}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Baron Zemo", 
+        "NomCourt": "Baron Zemo", 
+        "Classe": "Skill", 
+        "immunite": {}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Beast", 
+        "NomCourt": "Beast", 
+        "Classe": "Mutant", 
+        "immunite": {"Bleed": ["65% Resistance and Duration Reduction"]}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Beta Ray Bill", 
+        "NomCourt": "Beta Ray Bill", 
+        "Classe": "Cosmic", 
+        "immunite": {"Shock": [], "Power Drain": [], "Bleed": ["50% Resistance"], "Poison": ["50% Resistance"]}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Bishop", 
+        "NomCourt": "Bishop", 
+        "Classe": "Mutant", 
+        "immunite": {"Stun": ["Dupe ? Start a Fight with 1 Bar ? While Blocking"], "Ability Accuracy Reduction": ["Dupe ? Start a Fight with 1 Bar ? While Blocking ? 10-80% Reduction"]}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Black Bolt", 
+        "NomCourt": "Black Bolt", 
+        "Classe": "Cosmic", 
+        "immunite": {"Poison": []}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Black Cat", 
+        "NomCourt": "Black Cat", 
+        "Classe": "Skill", 
+        "immunite": {}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Black Panther", 
+        "NomCourt": "Black Panther", 
+        "Classe": "Skill", 
+        "immunite": {}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Black Panther (Civil War)", 
+        "NomCourt": "Black Panther", 
+        "Classe": "Skill", 
+        "immunite": {}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Black Widow", 
+        "NomCourt": "Black Widow", 
+        "Classe": "Skill", 
+        "immunite": {}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Black Widow (Claire Voyant)", 
+        "NomCourt": "Black Widow", 
+        "Classe": "Mystic", 
+        "immunite": {"Bleed": ["Curse of Blood"], "Poison": ["Curse of Plague"], "Incinerate": ["Curse of Hellfire"], "Death Immunity": ["Dupe & After SP3"]}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Black Widow (Deadly Origin)", 
+        "NomCourt": "Black Widow", 
+        "Classe": "Skill", 
+        "immunite": {}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Blade", 
+        "NomCourt": "Blade", 
+        "Classe": "Skill", 
+        "immunite": {}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Bullseye", 
+        "NomCourt": "Bullseye", 
+        "Classe": "Skill", 
+        "immunite": {"Precision": [], "Fatigue": []}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Cable", 
+        "NomCourt": "Cable", 
+        "Classe": "Mutant", 
+        "immunite": {"Poison": ["20-100% Duration Reduction", "Synergy [Magneto House of X] ? 60% Resistance"]}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Captain America", 
+        "NomCourt": "Captain America", 
+        "Classe": "Science", 
+        "immunite": {}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Captain America (Infinity War)", 
+        "NomCourt": "Captain America", 
+        "Classe": "Science", 
+        "immunite": {}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Captain America (Sam Wilson)", 
+        "NomCourt": "Captain America", 
+        "Classe": "Tech", 
+        "immunite": {"Bleed": ["25-100% Bleed AA Reduction per Armor Up"]}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Captain America (Wwii)", 
+        "NomCourt": "Captain America", 
+        "Classe": "Science", 
+        "immunite": {}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Captain Britain", 
+        "NomCourt": "Captain Britain", 
+        "Classe": "Mutant", 
+        "immunite": {"Reversed Controls": ["#Psychic Shielding"]}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Captain Marvel", 
+        "NomCourt": "Captain Marvel", 
+        "Classe": "Cosmic", 
+        "immunite": {"Poison": []}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Captain Marvel (Classic)", 
+        "NomCourt": "Captain Marvel", 
+        "Classe": "Cosmic", 
+        "immunite": {"Poison": []}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Carnage", 
+        "NomCourt": "Carnage", 
+        "Classe": "Cosmic", 
+        "immunite": {}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Cassie Lang", 
+        "NomCourt": "Cassie Lang", 
+        "Classe": "Science", 
+        "immunite": {"Power Steal": ["Dupe"], "Buffs": [], "Poison": [], "Shock": []}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Chee'Ilth", 
+        "NomCourt": "Chee'Ilth", 
+        "Classe": "Skill", 
+        "immunite": {}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Civil Warrior", 
+        "NomCourt": "Civil Warrior", 
+        "Classe": "Tech", 
+        "immunite": {"Nullify": [], "Stagger": [], "Bleed": ["25% Resistance per Armor Up"], "Poison": ["25% Resistance per Armor Up"]}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Colossus", 
+        "NomCourt": "Colossus", 
+        "Classe": "Mutant", 
+        "immunite": {"Bleed": [], "Incinerate": [], "Coldsnap": [], "Frostbite": [], "Armor Break": ["Against Non-Tech"], "Armor Shatter": ["Against Non-Tech"]}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Corvus Glaive", 
+        "NomCourt": "Corvus Glaive", 
+        "Classe": "Cosmic", 
+        "immunite": {"Bleed": ["Glaive's Charges"], "Coldsnap": ["Glaive's Charges"], "Shock": ["Glaive's Charges"], "Frostbite": ["Glaive's Charges"]}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Cosmic Ghost Rider", 
+        "NomCourt": "Cosmic Ghost Rider", 
+        "Classe": "Cosmic", 
+        "immunite": {"Bleed": [], "Incinerate": []}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Count Nefaria", 
+        "NomCourt": "Count Nefaria", 
+        "Classe": "Science", 
+        "immunite": {"Power Steal": [], "Bleed": [], "Shock": ["90% Resistance"], "Incinerate": ["90% Resistance"], "Degeneration": ["0-90% Resistance based on Ionic Charges"]}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Crossbones", 
+        "NomCourt": "Crossbones", 
+        "Classe": "Skill", 
+        "immunite": {"Nullify": ["Synergy [Punisher 2099, Red Skull] & #Hero Opponent"], "Stagger": ["Synergy [Punisher 2099, Red Skull] & #Hero Opponent"]}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Cull Obsidian", 
+        "NomCourt": "Cull Obsidian", 
+        "Classe": "Cosmic", 
+        "immunite": {}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Cyclops (Blue Team)", 
+        "NomCourt": "Cyclops", 
+        "Classe": "Mutant", 
+        "immunite": {}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Cyclops (New Xavier School)", 
+        "NomCourt": "Cyclops", 
+        "Classe": "Mutant", 
+        "immunite": {}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Dani Moonstar", 
+        "NomCourt": "Dani Moonstar", 
+        "Classe": "Mutant", 
+        "immunite": {}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Daredevil (Classic)", 
+        "NomCourt": "Daredevil", 
+        "Classe": "Skill", 
+        "immunite": {}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Daredevil (Hell'S Kitchen)", 
+        "NomCourt": "Daredevil (H.K.)", 
+        "Classe": "Skill", 
+        "immunite": {"Regeneration Rate Modification": ["Except Poison"]}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Darkhawk", 
+        "NomCourt": "Darkhawk", 
+        "Classe": "Tech", 
+        "immunite": {"Bleed": [], "Poison": []}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Dazzler", 
+        "NomCourt": "Dazzler", 
+        "Classe": "Mutant", 
+        "immunite": {"Nullify": [], "Incinerate": ["Synergy [Kitty Pride]"]}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Deadpool", 
+        "NomCourt": "Deadpool", 
+        "Classe": "Mutant", 
+        "immunite": {}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Deadpool (X-Force)", 
+        "NomCourt": "Deadpool", 
+        "Classe": "Mutant", 
+        "immunite": {}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Diablo", 
+        "NomCourt": "Diablo", 
+        "Classe": "Mystic", 
+        "immunite": {"Poison": ["100% Potency"], "Armor Break": ["Grain of Uru"], "Stun": ["Grain of Uru"]}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Doctor Doom", 
+        "NomCourt": "Doctor Doom", 
+        "Classe": "Mystic", 
+        "immunite": {"Shock": [], "Armor Break": [], "Armor Shatter": [], "Stun": ["Aura & Last Hit of SP1, SP2 or Heavy"]}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Doctor Octopus", 
+        "NomCourt": "Doctor Octopus", 
+        "Classe": "Tech", 
+        "immunite": {}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Doctor Strange", 
+        "NomCourt": "Dr. Strange", 
+        "Classe": "Mystic", 
+        "immunite": {}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Doctor Voodoo", 
+        "NomCourt": "Doctor Voodoo", 
+        "Classe": "Mystic", 
+        "immunite": {}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Domino", 
+        "NomCourt": "Domino", 
+        "Classe": "Mutant", 
+        "immunite": {"Bleed": ["50% chance to expire after 1s"]}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Dormammu", 
+        "NomCourt": "Dormammu", 
+        "Classe": "Mystic", 
+        "immunite": {"Bleed": [], "Poison": []}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Dragon Man", 
+        "NomCourt": "Dragon Man", 
+        "Classe": "Mystic", 
+        "immunite": {"Bleed": [], "Poison": [], "Armor Shatter": []}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Drax", 
+        "NomCourt": "Drax", 
+        "Classe": "Cosmic", 
+        "immunite": {}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Dust", 
+        "NomCourt": "Dust", 
+        "Classe": "Mutant", 
+        "immunite": {"Bleed": [], "Poison": [], "Shock": [], "Reversed Controls": ["#Psychic Shielding"]}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Ebony Maw", 
+        "NomCourt": "Ebony Maw", 
+        "Classe": "Mystic", 
+        "immunite": {}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Electro", 
+        "NomCourt": "Electro", 
+        "Classe": "Science", 
+        "immunite": {"Shock": ["100% Resistance"]}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Elektra", 
+        "NomCourt": "Elektra", 
+        "Classe": "Skill", 
+        "immunite": {}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Elsa Bloodstone", 
+        "NomCourt": "Elsa Bloodstone", 
+        "Classe": "Skill", 
+        "immunite": {}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Emma Frost", 
+        "NomCourt": "Emma Frost", 
+        "Classe": "Mutant", 
+        "immunite": {"Bleed": ["Diamond Form"], "Poison": ["Diamond Form"], "Incinerate": ["Diamond Form"], "Coldsnap": ["Diamond Form"], "Shock": ["Diamond Form"], "Frostbite": ["Diamond Form"], "Stun": ["Diamond Form"], "Fatigue": ["Diamond Form"], "Exhaustion": ["Diamond Form"], "Concussion": ["Diamond Form"], "Reversed Controls": ["Synergy [Mysterio]"]}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Enchantress", 
+        "NomCourt": "Enchantress", 
+        "Classe": "Mystic", 
+        "immunite": {"Power Lock": [], "Ability Power Rate Reduction": ["Can't be reduced below 50%"], "Combat Power Rate Reduction": ["Can't be reduced below 50%"], "Reversed Controls": ["SP1 & Haste Spell, ??????"]}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Falcon", 
+        "NomCourt": "Falcon", 
+        "Classe": "Skill", 
+        "immunite": {}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Falcon (Joaquin Torres)", 
+        "NomCourt": "Falcon (Joaquin Torres)", 
+        "Classe": "Science", 
+        "immunite": {}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Galan", 
+        "NomCourt": "Galan", 
+        "Classe": "Cosmic", 
+        "immunite": {"Fate Seal": [], "Nullify": [], "Power Drain": [], "Power Burn": [], "Power Lock": [], "Special Lock": [], "Stun": ["Dupe & Harvest"], "Bleed": ["Synergy [Purgatory] & Synergy [Mephisto, The Hood, Magik, Dormammu]"]}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Gambit", 
+        "NomCourt": "Gambit", 
+        "Classe": "Mutant", 
+        "immunite": {"Bleed": ["Flak Jacket ? 150% Resistance"]}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Gamora", 
+        "NomCourt": "Gamora", 
+        "Classe": "Cosmic", 
+        "immunite": {}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Gentle", 
+        "NomCourt": "Gentle", 
+        "Classe": "Mutant", 
+        "immunite": {"Bleed": [], "Stun": ["While performing Well-Timed Block"]}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Ghost", 
+        "NomCourt": "Ghost", 
+        "Classe": "Tech", 
+        "immunite": {}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Ghost Rider", 
+        "NomCourt": "Ghost Rider", 
+        "Classe": "Mystic", 
+        "immunite": {"Bleed": [], "Incinerate": [], "Degeneration": ["Synergy [America Chavez] ? 25% Resistance"]}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Gladiator", 
+        "NomCourt": "Gladiator", 
+        "Classe": "Cosmic", 
+        "immunite": {"Power Drain": [], "Power Burn": [], "Stun": ["20+ Confidence & During Specials"]}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Goldpool", 
+        "NomCourt": "Goldpool", 
+        "Classe": "Mutant", 
+        "immunite": {"Bleed": ["20% Resistance", "Synergy [Deadpool, Venompool, Deadpool X-Force, Gwenpool] ? 20% Resistance"]}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Gorr", 
+        "NomCourt": "Gorr", 
+        "Classe": "Cosmic", 
+        "immunite": {"Heal Block": []}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Green Goblin", 
+        "NomCourt": "Green Goblin", 
+        "Classe": "Tech", 
+        "immunite": {}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Groot", 
+        "NomCourt": "Groot", 
+        "Classe": "Cosmic", 
+        "immunite": {"Bleed": []}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Guardian", 
+        "NomCourt": "Guardian", 
+        "Classe": "Tech", 
+        "immunite": {"Bleed": ["Dupe ? 25-80% Resistance"]}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Guillotine", 
+        "NomCourt": "Guillotine", 
+        "Classe": "Mystic", 
+        "immunite": {}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Guillotine (Deathless)", 
+        "NomCourt": "Guillotine", 
+        "Classe": "Mystic", 
+        "immunite": {}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Guillotine 2099", 
+        "NomCourt": "Guillotine 2099", 
+        "Classe": "Tech", 
+        "immunite": {"Bleed": [], "Poison": []}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Gwenpool", 
+        "NomCourt": "Gwenpool", 
+        "Classe": "Skill", 
+        "immunite": {}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Havok", 
+        "NomCourt": "Havok", 
+        "Classe": "Mutant", 
+        "immunite": {"Incinerate": []}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Hawkeye", 
+        "NomCourt": "Hawkeye", 
+        "Classe": "Skill", 
+        "immunite": {"Poison": ["Synergy [Nick Fury, Black Widow, Black Widow Deadly Origin, Quake] & Against Non-Mutants"]}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Heimdall", 
+        "NomCourt": "Heimdall", 
+        "Classe": "Cosmic", 
+        "immunite": {}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Hela", 
+        "NomCourt": "Hela", 
+        "Classe": "Cosmic", 
+        "immunite": {}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Hercules", 
+        "NomCourt": "Hercules", 
+        "Classe": "Cosmic", 
+        "immunite": {"Stun": ["1+ Strength"], "Poison": ["15% Resistance"], "Bleed": ["50% Resistance"]}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Hit-Monkey", 
+        "NomCourt": "Hit-Monkey", 
+        "Classe": "Skill", 
+        "immunite": {}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Howard The Duck", 
+        "NomCourt": "Howard The Duck", 
+        "Classe": "Tech", 
+        "immunite": {"Bleed": []}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Hulk", 
+        "NomCourt": "Hulk", 
+        "Classe": "Science", 
+        "immunite": {"Poison": [], "Degeneration": ["0-90% Resistance based on missing Health"], "Nullify": ["Synergy [Hulkbuster]"], "Fate Seal": ["Synergy [Hulkbuster]"], "Stagger": ["Synergy [Hulkbuster]"], "Buffs": ["Synergy [Silver Surfer]"], "Reversed Controls": ["Synergy [The Overseer]"]}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Hulk (Immortal)", 
+        "NomCourt": "Hulk", 
+        "Classe": "Science", 
+        "immunite": {"Poison": [], "Regeneration Rate Modification": [], "Reversed Controls": ["Synergy [The Overseer]"]}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Hulk (Ragnarok)", 
+        "NomCourt": "Hulk", 
+        "Classe": "Science", 
+        "immunite": {"Poison": [], "Reversed Controls": ["Synergy [The Overseer]"]}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Hulkbuster", 
+        "NomCourt": "Hulkbuster", 
+        "Classe": "Tech", 
+        "immunite": {"Bleed": ["25% Resistance per Armor Up"], "Poison": ["25% Resistance per Armor Up"]}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Hulkling", 
+        "NomCourt": "Hulkling", 
+        "Classe": "Cosmic", 
+        "immunite": {"Poison": [], "Shock": [], "Power Drain": [], "Power Steal": [], "Power Burn": [], "Heal Block": ["-2s Duration"], "Stun": ["Synergy [Wiccan] & 3+ Pierce Buffs"]}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Human Torch", 
+        "NomCourt": "Human Torch", 
+        "Classe": "Science", 
+        "immunite": {"Incinerate": [], "Coldsnap": [], "Frostbite": []}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Hyperion", 
+        "NomCourt": "Hyperion", 
+        "Classe": "Cosmic", 
+        "immunite": {"Poison": []}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Iceman", 
+        "NomCourt": "Iceman", 
+        "Classe": "Mutant", 
+        "immunite": {"Bleed": [], "Poison": [], "Incinerate": [], "Nova Flame": [], "Coldsnap": [], "Frostbite": []}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Ikaris", 
+        "NomCourt": "Ikaris", 
+        "Classe": "Cosmic", 
+        "immunite": {"Incinerate": [], "Shock": [], "Poison": ["20% Resistance"]}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Invisible Woman", 
+        "NomCourt": "Invisible Woman", 
+        "Classe": "Science", 
+        "immunite": {}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Iron Fist", 
+        "NomCourt": "Iron Fist", 
+        "Classe": "Mystic", 
+        "immunite": {}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Iron Fist (Immortal)", 
+        "NomCourt": "Iron Fist", 
+        "Classe": "Mystic", 
+        "immunite": {}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Iron Man", 
+        "NomCourt": "Iron Man", 
+        "Classe": "Tech", 
+        "immunite": {"Coldsnap": ["Armor Up"], "Frostbite": ["Armor Up"], "Incinerate": ["Armor Up"], "Nullify": ["Only Personal Armor Ups"], "Stagger": ["Only Personal Armor Ups"]}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Iron Man (Infamous)", 
+        "NomCourt": "Infamous Iron Man", 
+        "Classe": "Tech", 
+        "immunite": {"Shock": ["Armor Up"], "Incinerate": ["Armor Up"], "Stun": ["Aura & Last Hit of SP1, SP2 or Heavy"]}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Iron Man (Infinity War)", 
+        "NomCourt": "Iron Man", 
+        "Classe": "Tech", 
+        "immunite": {"Bleed": ["Molecular Armor"], "Coldsnap": ["Molecular Armor"], "Power Drain": ["18% Resistance per Armor"], "Power Burn": ["18% Resistance per Armor"], "Power Steal": ["18% Resistance per Armor"]}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Iron Patriot", 
+        "NomCourt": "Iron Patriot", 
+        "Classe": "Tech", 
+        "immunite": {}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Ironheart", 
+        "NomCourt": "Ironheart", 
+        "Classe": "Tech", 
+        "immunite": {"Reversed Controls": ["Armor Up"], "Incinerate": ["Armor Up"], "Coldsnap": ["Armor Up"], "Frostbite": ["Armor Up"], "Ability Accuracy Reduction": ["Armor Up & Against Mutants ? Abilities are unaffected"]}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Isophyne", 
+        "NomCourt": "Isophyne", 
+        "Classe": "Mystic", 
+        "immunite": {"Bleed": [], "Coldsnap": [], "Frostbite": []}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Jabari Panther", 
+        "NomCourt": "Jabari Panther", 
+        "Classe": "Skill", 
+        "immunite": {"Stun": ["Hunt Active"]}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Jack O'Lantern", 
+        "NomCourt": "Jack O'Lantern", 
+        "Classe": "Tech", 
+        "immunite": {"Reversed Controls": [], "Incinerate": []}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Jessica Jones", 
+        "NomCourt": "Jessica Jones", 
+        "Classe": "Science", 
+        "immunite": {"Reversed Controls": ["#Psychic Shielding"]}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Joe Fixit", 
+        "NomCourt": "Joe Fixit", 
+        "Classe": "Science", 
+        "immunite": {"Poison": [], "Reversed Controls": ["Synergy [The Overseer]"]}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Jubilee", 
+        "NomCourt": "Jubilee", 
+        "Classe": "Mutant", 
+        "immunite": {}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Juggernaut", 
+        "NomCourt": "Juggernaut", 
+        "Classe": "Mystic", 
+        "immunite": {"Reversed Controls": ["Crimson Gem active", "#Psychic Shielding"], "Stun": ["20% Ability Reduction per Unstoppable"]}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Kang", 
+        "NomCourt": "Kang", 
+        "Classe": "Tech", 
+        "immunite": {}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Karnak", 
+        "NomCourt": "Karnak", 
+        "Classe": "Skill", 
+        "immunite": {"Poison": ["65% Resistance"]}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Kate Bishop", 
+        "NomCourt": "Kate Bishop", 
+        "Classe": "Skill", 
+        "immunite": {"Stun": ["Attacked while Stunned ? Purify Stun"]}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Killmonger", 
+        "NomCourt": "Killmonger", 
+        "Classe": "Skill", 
+        "immunite": {}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Kindred", 
+        "NomCourt": "Kindred", 
+        "Classe": "Mystic", 
+        "immunite": {"Poison": [], "Incinerate": [], "Heal Block": [], "Infuriate": [], "Intimidate": [], "Stun": ["Dread Aura"]}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "King Groot", 
+        "NomCourt": "King Groot", 
+        "Classe": "Cosmic", 
+        "immunite": {"Bleed": [], "Power Drain": [], "Power Burn": []}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "King Groot (Deathless)", 
+        "NomCourt": "King Groot", 
+        "Classe": "Cosmic", 
+        "immunite": {"Bleed": [], "Power Drain": [], "Power Burn": []}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Kingpin", 
+        "NomCourt": "Kingpin", 
+        "Classe": "Skill", 
+        "immunite": {"Regeneration Rate Modification": ["Except Poison"]}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Kitty Pryde", 
+        "NomCourt": "Kitty Pryde", 
+        "Classe": "Mutant", 
+        "immunite": {"Incinerate": [], "Stun": ["Phase"]}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Knull", 
+        "NomCourt": "Knull", 
+        "Classe": "Cosmic", 
+        "immunite": {"Bleed": ["60% Resistance"], "Poison": ["60% Resistance"], "Degeneration": ["40% Resistance"]}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Korg", 
+        "NomCourt": "Korg", 
+        "Classe": "Skill", 
+        "immunite": {"Bleed": [], "Shock": []}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Kraven", 
+        "NomCourt": "Kraven", 
+        "Classe": "Skill", 
+        "immunite": {"Bleed": ["Synergy [Arcade]"]}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Kushala", 
+        "NomCourt": "Kushala", 
+        "Classe": "Mystic", 
+        "immunite": {"Bleed": [], "Incinerate": []}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Lady Deathstrike", 
+        "NomCourt": "Lady Deathstrike", 
+        "Classe": "Tech", 
+        "immunite": {"Bleed": ["90% Resistance"], "Poison": ["90% Resistance"], "Ability Accuracy Reduction": ["Against Mutants"], "Armor Break": ["Nanorobots Regenerator"], "Rupture": ["Nanorobots Regenerator"], "Regeneration Rate Modification": [], "Heal Block": ["Immediately Removed"]}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Loki", 
+        "NomCourt": "Loki", 
+        "Classe": "Mystic", 
+        "immunite": {}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Longshot", 
+        "NomCourt": "Longshot", 
+        "Classe": "Mystic", 
+        "immunite": {}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Luke Cage", 
+        "NomCourt": "Luke Cage", 
+        "Classe": "Science", 
+        "immunite": {"Bleed": []}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "M.O.D.O.K.", 
+        "NomCourt": "M.O.D.O.K.", 
+        "Classe": "Science", 
+        "immunite": {"Poison": ["Synergy [Abomination] ? 50% Resistance"]}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Maestro", 
+        "NomCourt": "Maestro", 
+        "Classe": "Cosmic", 
+        "immunite": {"Poison": [], "Shock": [], "Incinerate": []}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Magik", 
+        "NomCourt": "Magik", 
+        "Classe": "Mystic", 
+        "immunite": {"Bleed": ["Synergy [Purgatory]"]}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Magneto", 
+        "NomCourt": "Magneto", 
+        "Classe": "Mutant", 
+        "immunite": {"Bleed": ["90% Resistance"], "Shock": ["90% Resistance"], "Reversed Controls": ["#Psychic Shielding"]}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Magneto (House Of X)", 
+        "NomCourt": "Magneto", 
+        "Classe": "Mutant", 
+        "immunite": {"Bleed": [], "Reversed Controls": ["#Psychic Shielding"]}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Man-Thing", 
+        "NomCourt": "Man-Thing", 
+        "Classe": "Mystic", 
+        "immunite": {"Bleed": [], "Armor Break": [], "Armor Shatter": []}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Mangog", 
+        "NomCourt": "Mangog", 
+        "Classe": "Mystic", 
+        "immunite": {"Bleed": [], "Armor Break": [], "Shock": ["SP1 & Enraged"], "Incinerate": ["SP1 & Enraged"], "Coldsnap": ["SP1 & Enraged"], "Frostbite": ["SP1 & Enraged"], "Nullify": ["Synergy [Odin]"]}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Mantis", 
+        "NomCourt": "Mantis", 
+        "Classe": "Skill", 
+        "immunite": {}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Masacre", 
+        "NomCourt": "Masacre", 
+        "Classe": "Skill", 
+        "immunite": {}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Medusa", 
+        "NomCourt": "Medusa", 
+        "Classe": "Cosmic", 
+        "immunite": {"Poison": []}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Mephisto", 
+        "NomCourt": "Mephisto", 
+        "Classe": "Mystic", 
+        "immunite": {"Poison": [], "Incinerate": [], "Coldsnap": [], "Frostbite": [], "Ability Accuracy Reduction": ["Passive"], "Bleed": ["Synergy [Purgatory]"]}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Mister Fantastic", 
+        "NomCourt": "Mister Fantastic", 
+        "Classe": "Science", 
+        "immunite": {}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Mister Negative", 
+        "NomCourt": "Mister Negative", 
+        "Classe": "Science", 
+        "immunite": {"Nullify": [], "Fate Seal": [], "Stagger": [], "Degeneration": ["40-100% Resistance"]}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Mister Sinister", 
+        "NomCourt": "Mister Sinister", 
+        "Classe": "Mutant", 
+        "immunite": {"Bleed": ["100% Resistance"], "Taunt": [], "Reversed Controls": ["#Psychic Shielding"]}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Misty Knight", 
+        "NomCourt": "Misty Knight", 
+        "Classe": "Skill", 
+        "immunite": {}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Mojo", 
+        "NomCourt": "Mojo", 
+        "Classe": "Mystic", 
+        "immunite": {}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Mole Man", 
+        "NomCourt": "Mole Man", 
+        "Classe": "Skill", 
+        "immunite": {"Shock": []}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Moon Knight", 
+        "NomCourt": "Moon Knight", 
+        "Classe": "Skill", 
+        "immunite": {}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Moondragon", 
+        "NomCourt": "Moondragon", 
+        "Classe": "Skill", 
+        "immunite": {"Reversed Controls": [], "Bleed": ["30-80% Resistance"], "Power Sting": ["30-80% Resistance"], "Degeneration": ["30-80% Resistance"], "Poison": ["30-80% Resistance"]}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Morbius", 
+        "NomCourt": "Morbius", 
+        "Classe": "Science", 
+        "immunite": {}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Mordo", 
+        "NomCourt": "Mordo", 
+        "Classe": "Mystic", 
+        "immunite": {"Ability Accuracy Reduction": ["Passive"], "Nullify": ["Synergy [Sorcerer Supreme] &\xa0Against Mystic"], "Fate Seal": ["Synergy [Sorcerer Supreme] & Against Mystic"]}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Morningstar", 
+        "NomCourt": "Morningstar", 
+        "Classe": "Mystic", 
+        "immunite": {"Bleed": []}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Ms. Marvel", 
+        "NomCourt": "Ms. Marvel", 
+        "Classe": "Cosmic", 
+        "immunite": {"Poison": []}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Ms. Marvel (Kamala Khan)", 
+        "NomCourt": "Ms. Marvel", 
+        "Classe": "Cosmic", 
+        "immunite": {"Poison": []}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Mysterio", 
+        "NomCourt": "Mysterio", 
+        "Classe": "Tech", 
+        "immunite": {"Poison": ["Helmet"], "Ability Accuracy Reduction": ["Helmet"], "Reversed Controls": ["Synergy [Emma Frost]"]}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Namor", 
+        "NomCourt": "Namor", 
+        "Classe": "Mutant", 
+        "immunite": {}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Nebula", 
+        "NomCourt": "Nebula", 
+        "Classe": "Tech", 
+        "immunite": {"Bleed": [], "Poison": [], "Shock": []}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Negasonic Teenage Warhead", 
+        "NomCourt": "Negasonic Teenage", 
+        "Classe": "Mutant", 
+        "immunite": {"Bleed Ability Accuracy Reduction": ["Against Skill"], "Evade Ability Accuracy Reduction": ["Against Skill"], "True Effect Ability Accuracy Reduction": ["Against Skill"]}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Nick Fury", 
+        "NomCourt": "Nick Fury", 
+        "Classe": "Skill", 
+        "immunite": {"Stun": ["Dupe ? Second Life", "Hitting into Auto-Block"]}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Night Thrasher", 
+        "NomCourt": "Night Thrasher", 
+        "Classe": "Skill", 
+        "immunite": {"Incinerate": []}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Nightcrawler", 
+        "NomCourt": "Nightcrawler", 
+        "Classe": "Mutant", 
+        "immunite": {}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Nimrod", 
+        "NomCourt": "Nimrod", 
+        "Classe": "Tech", 
+        "immunite": {"Bleed": [], "Poison": [], "Armor Break": ["100% Potency"], "Ability Accuracy Modification": ["Against Mutants"]}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Northstar", 
+        "NomCourt": "Northstar", 
+        "Classe": "Mutant", 
+        "immunite": {}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Nova", 
+        "NomCourt": "Nova", 
+        "Classe": "Cosmic", 
+        "immunite": {}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Odin", 
+        "NomCourt": "Odin", 
+        "Classe": "Cosmic", 
+        "immunite": {"Shock": ["Synergy [Ant-Man Future] ? 50% Resistance"]}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Okoye", 
+        "NomCourt": "Okoye", 
+        "Classe": "Skill", 
+        "immunite": {}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Old Man Logan", 
+        "NomCourt": "Old Man Logan", 
+        "Classe": "Mutant", 
+        "immunite": {"Bleed": ["Active Regeneration ? 95% Resistance"], "Ability Accuracy Modification": []}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Omega Red", 
+        "NomCourt": "Omega Red", 
+        "Classe": "Mutant", 
+        "immunite": {"Bleed": ["90% Resistance"], "Poison": []}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Omega Sentinel", 
+        "NomCourt": "Omega Sentinel", 
+        "Classe": "Tech", 
+        "immunite": {"Bleed": ["100% Resistance"], "Poison": ["100% Resistance"], "Nullify": [], "Stagger": [], "Fate Seal": [], "Ability Accuracy Reduction": ["Against Mutant"]}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Onslaught", 
+        "NomCourt": "Onslaught", 
+        "Classe": "Mutant", 
+        "immunite": {"Bleed": ["150% Resistance"], "Incinerate": ["150% Resistance"], "Shock": ["150% Resistance"], "Reversed Controls": ["#Psychic Shielding"]}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Patriot", 
+        "NomCourt": "Patriot", 
+        "Classe": "Skill", 
+        "immunite": {"Regeneration Rate Reduction": []}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Peni Parker", 
+        "NomCourt": "Peni Parker", 
+        "Classe": "Tech", 
+        "immunite": {"Poison": [], "Incinerate": [], "Stun": ["Synergy [Air-Walker, Falcon] & Sync-Shield Active"]}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Phoenix", 
+        "NomCourt": "Phoenix", 
+        "Classe": "Cosmic", 
+        "immunite": {}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Photon", 
+        "NomCourt": "Photon", 
+        "Classe": "Science", 
+        "immunite": {"Bleed": [], "Power Steal": [], "Neutralize": ["Dupe"], "Degeneration": ["Synergy [Mister Negative] ? Potency reduced by 20% per unique Debuff"]}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Platinumpool", 
+        "NomCourt": "Platinumpool", 
+        "Classe": "Mutant", 
+        "immunite": {"Stun": ["Stun Boost ? 30% Duration Reduction"]}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Professor X", 
+        "NomCourt": "Professor X", 
+        "Classe": "Mutant", 
+        "immunite": {"Reversed Controls": ["#Psychic Shielding"]}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Prowler", 
+        "NomCourt": "Prowler", 
+        "Classe": "Tech", 
+        "immunite": {"Bleed": [], "Incinerate": [], "Falter": [], "Reversed Controls": ["Synergy [Spider-Punk] & Pre-Fight ? Controls are Inverted"]}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Proxima Midnight", 
+        "NomCourt": "Proxima Midnight", 
+        "Classe": "Cosmic", 
+        "immunite": {}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Psycho-Man", 
+        "NomCourt": "Psycho-Man", 
+        "Classe": "Tech", 
+        "immunite": {}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Psylocke", 
+        "NomCourt": "Psylocke", 
+        "Classe": "Mutant", 
+        "immunite": {}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Punisher", 
+        "NomCourt": "Punisher", 
+        "Classe": "Skill", 
+        "immunite": {}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Punisher 2099", 
+        "NomCourt": "Punisher 2099", 
+        "Classe": "Tech", 
+        "immunite": {}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Purgatory", 
+        "NomCourt": "Purgatory", 
+        "Classe": "Mystic", 
+        "immunite": {"Incinerate": [], "Bleed": ["Synergy [Mephisto, The Hood, Magik, Dormammu]"]}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Quake", 
+        "NomCourt": "Quake", 
+        "Classe": "Science", 
+        "immunite": {}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Quicksilver", 
+        "NomCourt": "Quicksilver", 
+        "Classe": "Science", 
+        "immunite": {"Ability Accuracy Reduction": ["Only Evade at 600+ Momentum Charges"], "Degeneration": ["Synergy [Wiccan] ? 8.3% Resistance per 100 Momentum Charges"]}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Red Goblin", 
+        "NomCourt": "Red Goblin", 
+        "Classe": "Cosmic", 
+        "immunite": {"Incinerate": [], "Power Burn": []}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Red Guardian", 
+        "NomCourt": "Red Guardian", 
+        "Classe": "Science", 
+        "immunite": {"Buffs": []}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Red Hulk", 
+        "NomCourt": "Red Hulk", 
+        "Classe": "Science", 
+        "immunite": {"Poison": [], "Incinerate": []}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Red Skull", 
+        "NomCourt": "Red Skull", 
+        "Classe": "Tech", 
+        "immunite": {"Nullify": ["Only effects from Champions"], "Fate Seal": ["Only effects from Champions"], "Stagger": ["Only effects from Champions"], "Ability Accuracy Reduction": ["Against Mutants"]}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Rhino", 
+        "NomCourt": "Rhino", 
+        "Classe": "Science", 
+        "immunite": {}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Rintrah", 
+        "NomCourt": "Rintrah", 
+        "Classe": "Mystic", 
+        "immunite": {"Armor Break": ["50-100% Potency"], "Stun": ["15+ Charges"], "Bleed": ["Synergy [Purgatory] & Synergy [Mephisto, The Hood, Magik, Dormammu]"]}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Rocket Raccoon", 
+        "NomCourt": "Rocket Raccoon", 
+        "Classe": "Tech", 
+        "immunite": {}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Rogue", 
+        "NomCourt": "Rogue", 
+        "Classe": "Mutant", 
+        "immunite": {}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Ronan", 
+        "NomCourt": "Ronan", 
+        "Classe": "Cosmic", 
+        "immunite": {"Poison": []}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Ronin", 
+        "NomCourt": "Ronin", 
+        "Classe": "Skill", 
+        "immunite": {}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Sabretooth", 
+        "NomCourt": "Sabretooth", 
+        "Classe": "Mutant", 
+        "immunite": {"Coldsnap": [], "Frostbite": []}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Sandman", 
+        "NomCourt": "Sandman", 
+        "Classe": "Science", 
+        "immunite": {"Bleed": [], "Poison": [], "Shock": []}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Sasquatch", 
+        "NomCourt": "Sasquatch", 
+        "Classe": "Mystic", 
+        "immunite": {"Coldsnap": ["90% Resistance"], "Frostbite": [], "Armor Break": [], "Stun": ["Wrath of Tanaraq"]}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Sauron", 
+        "NomCourt": "Sauron", 
+        "Classe": "Mutant", 
+        "immunite": {"Poison": [], "Bleed": ["95% Resistance"], "Power Steal": [], "Regeneration Rate Modification": []}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Scarlet Witch", 
+        "NomCourt": "Scarlet Witch", 
+        "Classe": "Mystic", 
+        "immunite": {}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Scarlet Witch (Classic)", 
+        "NomCourt": "Scarlet Witch", 
+        "Classe": "Mystic", 
+        "immunite": {}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Scorpion", 
+        "NomCourt": "Scorpion", 
+        "Classe": "Science", 
+        "immunite": {"Shock": ["Based on Pre-Fight"], "Rupture": ["Based on Pre-Fight"], "Poison": ["Based on Pre-Fight"]}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Scream", 
+        "NomCourt": "Scream", 
+        "Classe": "Cosmic", 
+        "immunite": {}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Sentinel", 
+        "NomCourt": "Sentinel", 
+        "Classe": "Tech", 
+        "immunite": {"Bleed": [], "Poison": []}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Sentry", 
+        "NomCourt": "Sentry", 
+        "Classe": "Science", 
+        "immunite": {}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Sersi", 
+        "NomCourt": "Sersi", 
+        "Classe": "Cosmic", 
+        "immunite": {"Bleed": ["30-90% Duration Reduction"], "Shock": ["30-90% Duration Reduction"], "Incinerate": ["30-90% Duration Reduction"], "Heal Block": ["30-90% Duration Reduction"]}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Shang-Chi", 
+        "NomCourt": "Shang-Chi", 
+        "Classe": "Skill", 
+        "immunite": {}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Shathra", 
+        "NomCourt": "Shathra", 
+        "Classe": "Mystic", 
+        "immunite": {}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "She-Hulk", 
+        "NomCourt": "She-Hulk", 
+        "Classe": "Science", 
+        "immunite": {"Poison": []}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "She-Hulk (Deathless)", 
+        "NomCourt": "She-Hulk", 
+        "Classe": "Science", 
+        "immunite": {"Poison": [], "Rupture": ["Synergy [Thanos (Deathless)]"]}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Shocker", 
+        "NomCourt": "Shocker", 
+        "Classe": "Tech", 
+        "immunite": {"Shock": [], "Concussion": [], "Stun": ["50% Duration Reduction"]}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Shuri", 
+        "NomCourt": "Shuri", 
+        "Classe": "Tech", 
+        "immunite": {"Ability Accuracy Reduction": [], "Shock": [], "Precision": []}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Silk", 
+        "NomCourt": "Silk", 
+        "Classe": "Science", 
+        "immunite": {"Rupture": ["90% Duration Reduction"], "Slow": ["90% Duration Reduction"], "Degeneration": ["Synergy [Spider-Gwen, Spider-Man Miles Morales] ? 30-60% Resistance"]}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Silver Centurion", 
+        "NomCourt": "Silver Centurion", 
+        "Classe": "Tech", 
+        "immunite": {"Bleed": ["Armor Up"], "Shock": ["Armor Up"]}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Silver Sable", 
+        "NomCourt": "Silver Sable", 
+        "Classe": "Skill", 
+        "immunite": {"Reversed Controls": ["#Psychic Shielding"]}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Silver Surfer", 
+        "NomCourt": "Silver Surfer", 
+        "Classe": "Cosmic", 
+        "immunite": {"Incinerate": ["100% Resistance"], "Coldsnap": ["100% Resistance"], "Shock": ["100% Resistance"]}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Sorcerer Supreme", 
+        "NomCourt": "Sorcerer Supreme", 
+        "Classe": "Mystic", 
+        "immunite": {}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Spider-Gwen", 
+        "NomCourt": "Spider-Gwen", 
+        "Classe": "Science", 
+        "immunite": {"Degeneration": ["Synergy [Silk] ? 30-60% Resistance"]}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Spider-Ham", 
+        "NomCourt": "Spider-Ham", 
+        "Classe": "Science", 
+        "immunite": {"Degeneration": ["15-100%"]}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Spider-Man (Classic)", 
+        "NomCourt": "Spider-Man", 
+        "Classe": "Science", 
+        "immunite": {}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Spider-Man (Miles Morales)", 
+        "NomCourt": "Spider-Man", 
+        "Classe": "Science", 
+        "immunite": {"Degeneration": ["Synergy [Silk] ? 30-60% Resistance"]}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Spider-Man (Stark Enhanced)", 
+        "NomCourt": "Spider-Man", 
+        "Classe": "Tech", 
+        "immunite": {}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Spider-Man (Stealth Suit)", 
+        "NomCourt": "Spider-Man", 
+        "Classe": "Skill", 
+        "immunite": {}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Spider-Man (Supreme)", 
+        "NomCourt": "Spider-Man", 
+        "Classe": "Mystic", 
+        "immunite": {}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Spider-Man (Symbiote)", 
+        "NomCourt": "Spider-Man", 
+        "Classe": "Cosmic", 
+        "immunite": {}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Spider-Man 2099", 
+        "NomCourt": "Spider-Man", 
+        "Classe": "Science", 
+        "immunite": {"Buffs": []}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Spider-Punk", 
+        "NomCourt": "Spider-Punk", 
+        "Classe": "Science", 
+        "immunite": {"Concussion": [], "Rupture": [], "Reversed Controls": ["Synergy [Prowler] & Pre-Fight ? Controls are Inverted"], "Stun": ["Synergy [Shathra] & Wasp-Totem ? While Counter-Evade Cooldown active"]}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Spiral", 
+        "NomCourt": "Spiral", 
+        "Classe": "Mystic", 
+        "immunite": {"Falter": [], "Reversed Controls": ["Synergy [Rogue, Gambit]"], "Shock": ["Dupe, 0-150% Duration Reduction, based on Fervor"], "Incinerate": ["Dupe, 0-150% Duration Reduction, based on Fervor"], "Poison": ["Dupe, 0-150% Duration Reduction, based on Fervor"]}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Spot", 
+        "NomCourt": "Spot", 
+        "Classe": "Science", 
+        "immunite": {"Stun": ["While Untouchable"], "Buffs": ["SP1 ? 10s"], "Bleed": ["Synergy [Purgatory] & Synergy [Mephisto, The Hood, Magik, Dormammu]"]}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Squirrel Girl", 
+        "NomCourt": "Squirrel Girl", 
+        "Classe": "Skill", 
+        "immunite": {}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Star-Lord", 
+        "NomCourt": "Star-Lord", 
+        "Classe": "Tech", 
+        "immunite": {}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Storm", 
+        "NomCourt": "Storm", 
+        "Classe": "Mutant", 
+        "immunite": {"Shock": [], "Incinerate": ["Synergy [Storm Pyramid X]"], "Coldsnap": ["Synergy [Storm Pyramid X]"]}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Storm (Pyramid X)", 
+        "NomCourt": "Storm", 
+        "Classe": "Mutant", 
+        "immunite": {"Shock": ["Lightning Tempest ? 100% Resistance"], "Coldsnap": ["Ice Tempest"], "Frostbite": ["Ice Tempest"]}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Stryfe", 
+        "NomCourt": "Stryfe", 
+        "Classe": "Mutant", 
+        "immunite": {"Reversed Controls": ["#Psychic Shielding"]}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Summoned Symbiote", 
+        "NomCourt": "Summoned Symbiote", 
+        "Classe": "Superior", 
+        "immunite": {}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Sunspot", 
+        "NomCourt": "Sunspot", 
+        "Classe": "Mutant", 
+        "immunite": {"Incinerate": []}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Super-Skrull", 
+        "NomCourt": "Super-Skrull", 
+        "Classe": "Cosmic", 
+        "immunite": {"Incinerate": [], "Shock": []}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Superior Iron Man", 
+        "NomCourt": "Super. Iron Man", 
+        "Classe": "Cosmic", 
+        "immunite": {"Bleed": ["50% Reistance, +15% per unique Superior Buff"], "Incinerate": ["50% Reistance, +15% per unique Superior Buff"], "Shock": ["50% Reistance, +15% per unique Superior Buff"]}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Symbiote Supreme", 
+        "NomCourt": "Symbiote Supreme", 
+        "Classe": "Mystic", 
+        "immunite": {}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Taskmaster", 
+        "NomCourt": "Taskmaster", 
+        "Classe": "Skill", 
+        "immunite": {"Debuffs": ["After 10 Debuffs"]}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Terrax", 
+        "NomCourt": "Terrax", 
+        "Classe": "Cosmic", 
+        "immunite": {"Shock": [], "Bleed": [], "Power Burn": ["Against #Metal"], "Power Drain": ["Against #Metal"], "Power Steal": ["Against #Metal"], "Power Lock": ["Against #Metal"], "Enervate": ["Against #Metal"]}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Thanos", 
+        "NomCourt": "Thanos", 
+        "Classe": "Cosmic", 
+        "immunite": {}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Thanos (Deathless)", 
+        "NomCourt": "Thanos (Deathless)", 
+        "Classe": "Cosmic", 
+        "immunite": {"Coldsnap": [], "Frostbite": [], "Poison": [], "Power Burn": ["Synergy [Vision (Deathless)]"], "Power Drain": ["Synergy [Vision (Deathless)]"]}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "The Champion", 
+        "NomCourt": "The Champion", 
+        "Classe": "Cosmic", 
+        "immunite": {"Fate Seal": ["Dupe"], "Heal Block": ["Dupe"], "Petrify": ["Dupe"], "Regeneration Rate Modification": ["Dupe & Except Poison"]}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "The Destroyer", 
+        "NomCourt": "The Destroyer", 
+        "Classe": "Mystic", 
+        "immunite": {"Slow": [], "Armor Break": [], "Poison": [], "Bleed": [], "Infuriate": [], "Intimidate": [], "Reversed Controls": ["#Psychic Shielding"]}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "The Hood", 
+        "NomCourt": "The Hood", 
+        "Classe": "Mystic", 
+        "immunite": {"Stun": ["Dupe & While Invisible"], "Bleed": ["Synergy [Purgatory]"]}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "The Leader", 
+        "NomCourt": "The Leader", 
+        "Classe": "Science", 
+        "immunite": {"Poison": []}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "The Overseer", 
+        "NomCourt": "The Overseer", 
+        "Classe": "Science", 
+        "immunite": {"Poison": [], "Nullify": [], "Fate Seal": [], "Stagger": [], "Stun": ["Auto-Block"], "Neutralize": ["Synergy [Spiderman Supreme]"], "Reversed Controls": ["Synergy [Hulk, Hulk Immortal, Hulk Ragnarok, Joe Fixit]"]}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "The Serpent", 
+        "NomCourt": "The Serpent", 
+        "Classe": "Cosmic", 
+        "immunite": {"Stun": ["Dupe & During Special Attacks"], "Power Lock": [], "Special Lock": [], "Heal Block": [], "Fate Seal": [], "Ability Power Rate": ["Cant be reduced below 50% by non-Mystic Champions"], "Coldsnap": [], "Bleed": ["90% Duration Reduction"], "Power Burn": ["60% Resistance"], "Power Drain": ["60% Resistance"], "Combat Power Rate Reduction": ["Cant be reduced"], "Instant Damaging Effects": ["20% Resistance per Dread"]}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Thing", 
+        "NomCourt": "Thing", 
+        "Classe": "Science", 
+        "immunite": {"Bleed": [], "Shock": [], "Armor Break": [], "Armor Shatter": [], "Nullify": [], "Stagger": [], "Fate Seal": []}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Thor", 
+        "NomCourt": "Thor", 
+        "Classe": "Cosmic", 
+        "immunite": {"Shock": ["40% Resistance"]}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Thor (Jane Foster)", 
+        "NomCourt": "Thor", 
+        "Classe": "Mystic", 
+        "immunite": {"Shock": ["100% Resistance & 20% Against Science"]}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Thor (Ragnarok)", 
+        "NomCourt": "Thor", 
+        "Classe": "Skill", 
+        "immunite": {"Shock": ["90% Duration Reduction"]}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Tigra", 
+        "NomCourt": "Tigra", 
+        "Classe": "Mystic", 
+        "immunite": {}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Titania", 
+        "NomCourt": "Titania", 
+        "Classe": "Science", 
+        "immunite": {"Buffs": [], "Bleed": ["Synergy [Absorbing Man]"]}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Toad", 
+        "NomCourt": "Toad", 
+        "Classe": "Mutant", 
+        "immunite": {"Poison": []}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Ultron", 
+        "NomCourt": "Ultron", 
+        "Classe": "Tech", 
+        "immunite": {"Bleed": [], "Poison": [], "Slow": [], "Ability Accuracy Reduction": ["Abilities unaffected by AAR"], "Incinerate": ["Dupe ? 25-80% Duration Reduction"], "Shock": ["Dupe ? 25-80% Duration Reduction"]}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Ultron (Classic)", 
+        "NomCourt": "Ultron", 
+        "Classe": "Tech", 
+        "immunite": {"Bleed": [], "Poison": []}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Unstoppable Colossus", 
+        "NomCourt": "Unst. Colossus", 
+        "Classe": "Mystic", 
+        "immunite": {"Bleed": [], "Reversed Controls": ["#Psychic Shielding"]}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Valkyrie", 
+        "NomCourt": "Valkyrie", 
+        "Classe": "Skill", 
+        "immunite": {"Stun": ["Dupe & 1-4+ Bulwark"]}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Venom", 
+        "NomCourt": "Venom", 
+        "Classe": "Cosmic", 
+        "immunite": {"Power Drain": ["Against Tech & Klyntar Buff"], "Power Burn": ["Against Tech & Klyntar Buff"]}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Venom The Duck", 
+        "NomCourt": "Venom The Duck", 
+        "Classe": "Cosmic", 
+        "immunite": {}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Venompool", 
+        "NomCourt": "Venompool", 
+        "Classe": "Cosmic", 
+        "immunite": {"Power Drain": ["Against Tech"], "Power Burn": ["Against Tech"], "Shock": ["Against Tech"], "Armor Break": ["Against Tech"], "Special Lock": ["Synergy [Spider-man Supreme]"], "Incinerate": ["Synergy [Red Hulk, Sunspot, Human Torch] & Against Tech"]}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Vision", 
+        "NomCourt": "Vision", 
+        "Classe": "Tech", 
+        "immunite": {"Bleed": [], "Poison": []}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Vision (Aarkus)", 
+        "NomCourt": "Vision", 
+        "Classe": "Cosmic", 
+        "immunite": {"Power Drain": ["80% Resistance"], "Power Burn": ["80% Resistance"], "Power Steal": ["80% Resistance"], "Power Lock": ["50% Resistance"]}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Vision (Age Of Ultron)", 
+        "NomCourt": "Vision", 
+        "Classe": "Tech", 
+        "immunite": {"Bleed": [], "Poison": []}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Vision (Deathless)", 
+        "NomCourt": "Vision (Deathless)", 
+        "Classe": "Tech", 
+        "immunite": {"Bleed": [], "Poison": [], "Coldsnap": [], "Frostbite": [], "Stun": ["While Phasing"], "Reversed Controls": ["Synergy [Thanos (Deathless)]"]}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Viv Vision", 
+        "NomCourt": "Viv Vision", 
+        "Classe": "Tech", 
+        "immunite": {"Poison": [], "Bleed": [], "Nullify": ["Armor Up"], "Fate Seal": ["Armor Up"], "Reversed Controls": ["Fury from SP3 active"]}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Void", 
+        "NomCourt": "Void", 
+        "Classe": "Science", 
+        "immunite": {"Incinerate": []}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Vox", 
+        "NomCourt": "Vox", 
+        "Classe": "Cosmic", 
+        "immunite": {"Poison": [], "Power Burn": [], "Power Drain": [], "Power Lock": [], "Special Lock": []}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Vulture", 
+        "NomCourt": "Vulture", 
+        "Classe": "Tech", 
+        "immunite": {"Incinerate": [], "Shock": ["Synergy [Kingpin, Yellowjacket, Masacre]"], "Poison": ["Synergy [War Machine, Ultron, Sentry]"], "Nullify": ["Synergy [Prowler]"]}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "War Machine", 
+        "NomCourt": "War Machine", 
+        "Classe": "Tech", 
+        "immunite": {}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Warlock", 
+        "NomCourt": "Warlock", 
+        "Classe": "Tech", 
+        "immunite": {"Bleed": [], "Poison": [], "Coldsnap": [], "Frostbite": []}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Wasp", 
+        "NomCourt": "Wasp", 
+        "Classe": "Science", 
+        "immunite": {}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Werewolf By Night", 
+        "NomCourt": "Werewolf By Night", 
+        "Classe": "Mystic", 
+        "immunite": {"Heal Block": [], "Poison": ["90% Duration Reduction"]}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "White Tiger", 
+        "NomCourt": "White Tiger", 
+        "Classe": "Mystic", 
+        "immunite": {"Nullify": []}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Wiccan", 
+        "NomCourt": "Wiccan", 
+        "Classe": "Mystic", 
+        "immunite": {"Armor Break": [], "Reversed Controls": []}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Winter Soldier", 
+        "NomCourt": "Winter Soldier", 
+        "Classe": "Skill", 
+        "immunite": {}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Wolverine", 
+        "NomCourt": "Wolverine", 
+        "Classe": "Mutant", 
+        "immunite": {}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Wolverine (Weapon X)", 
+        "NomCourt": "Wolverine X", 
+        "Classe": "Mutant", 
+        "immunite": {"Stun": ["Berserk Rage"], "Regeneration Rate Modification": [], "Bleed": ["50% Resistance"]}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Wolverine (X-23)", 
+        "NomCourt": "Wolverine (X-23)", 
+        "Classe": "Mutant", 
+        "immunite": {}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Wong", 
+        "NomCourt": "Wong", 
+        "Classe": "Mystic", 
+        "immunite": {}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Yellowjacket", 
+        "NomCourt": "Yellowjacket", 
+        "Classe": "Science", 
+        "immunite": {}, 
+        "photo": "download.jpg"
+    }, 
+    {
+        "Nom": "Yondu", 
+        "NomCourt": "Yondu", 
+        "Classe": "Tech", 
+        "immunite": {}, 
+        "photo": "download.jpg"
     }
 ]
