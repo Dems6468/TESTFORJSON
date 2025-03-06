@@ -1,26 +1,22 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Personnages</title>
+    <title>Character Cards</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="container" id="characters-container">
-        <!-- Les cartes seront ajoutées ici via JavaScript -->
-    </div>
+    <header>
+        <h1>Character Cards</h1>
+    </header>
 
-    <div id="modal" class="modal">
-        <div class="modal-content">
-            <span class="close-btn">&times;</span>
-            <h2 id="modal-name"></h2>
-            <p><strong>Classe:</strong> <span id="modal-class"></span></p>
-            <p><strong>Immunités:</strong> <span id="modal-immunities"></span></p>
-            <img id="modal-photo" src="" alt="Personnage Image" class="modal-photo">
-        </div>
-    </div>
+    <div id="cards-container" class="cards-container"></div>
 
-    <script src="scripts.js"></script>
+    <footer>
+        <p>Powered by your character data.</p>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
