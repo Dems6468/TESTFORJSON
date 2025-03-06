@@ -50,6 +50,7 @@ body {
     color: #007bff; /* Change la couleur quand on survole l'immunité */
 }
 
+/* Tooltip qui apparaît sous l'immunité */
 .details-tooltip {
     display: none; /* Initialement caché */
     position: absolute;
@@ -59,5 +60,8 @@ body {
     border-radius: 5px;
     font-size: 12px;
     max-width: 250px;
-    z-index: 1000; /* Assure que le tooltip est au-dessus des autres éléments */
+    z-index: 9999; /* Le z-index élevé pour être au-dessus de la carte */
+    width: auto;
+    max-width: 100%;
+    white-space: nowrap; /* Empêche que le texte ne se coupe sur plusieurs lignes */
 }
