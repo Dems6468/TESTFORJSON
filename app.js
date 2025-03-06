@@ -37,14 +37,22 @@ fetch('data.json')
             for (const [immunite, details] of Object.entries(personnage.immunite)) {
                 // Créer un élément pour chaque immunité
                 const immuniteElement = document.createElement('p');
-                immuniteElement.textContent = immunite;
+                immuniteElement.textContent = immunite; // Affiche juste le nom de l'immunité (ex: "Poison")
 
                 // Ajouter un événement au clic pour afficher les détails
                 immuniteElement.addEventListener('click', () => {
-                    // Créer un paragraphe pour afficher les détails (par exemple "100% Resistance")
-                    const detailsElement = document.createElement('span');
-                    detailsElement.textContent = `: ${details.join(", ")}`;
-                    immuniteElement.appendChild(detailsElement);
+                    // Si les détails ne sont pas vides, les afficher
+                    if (details.length > 0) {
+                        const detailsElement = document.createElement('span');
+                        detailsElement.textContent = `: ${details.join(", ")}`;
+                        immuniteElement.appendChild(detailsElement);
+                    } else {
+                        // Si aucun détail, afficher "Aucun détail"
+                        const noDetails = document.createElement('span');
+                        noDetails.textContent = ": Aucun détail";
+                        immuniteElement.appendChild(noDetails);
+                    }
+
                     immuniteElement.style.color = 'blue'; // Change la couleur pour signaler que c'est cliquable
                 });
 
