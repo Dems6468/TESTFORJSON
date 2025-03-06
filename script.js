@@ -1,7 +1,12 @@
 // Fetch character data from the external JSON file
 function fetchCharacterData() {
     fetch('data.json') // The path to your JSON file
-        .then(response => response.json())
+        .then(response => {
+            if (!response.ok) {
+                throw new Error('Network response was not ok');
+            }
+            return response.json();
+        })
         .then(data => {
             // Log the data to check its structure
             console.log("Character Data:", data);
@@ -18,7 +23,7 @@ function createCharacterCard(character) {
     const card = document.createElement('div');
     card.classList.add('card');
 
-    // Debugging: Log the character to see what data is available
+    // Log the character to see what data is available
     console.log("Character:", character);
 
     const cardImage = document.createElement('img');
@@ -27,7 +32,7 @@ function createCharacterCard(character) {
     card.appendChild(cardImage);
 
     const cardTitle = document.createElement('h3');
-    cardTitle.textContent = character["Champion Name"]; // Make sure the property name matches exactly
+    cardTitle.textContent = character["Champion Name"];
     card.appendChild(cardTitle);
 
     const cardClass = document.createElement('p');
