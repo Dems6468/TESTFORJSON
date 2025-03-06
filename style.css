@@ -68,4 +68,29 @@ h1 {
     font-style: italic;
     color: green;
 }
+.details-tooltip {
+    display: none; /* Cache les détails au départ */
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 12px;
+    max-width: 250px;
+    z-index: 1000;
+    margin-top: 5px;
+}
+
+.personnage-card {
+    position: relative; /* Pour que les tooltips s'affichent au bon endroit */
+    margin-bottom: 20px;
+}
+
+.personnage-card p {
+    cursor: pointer;
+}
+
+.personnage-card p:hover {
+    color: blue; /* Pour indiquer que c'est cliquable */
+}
 
