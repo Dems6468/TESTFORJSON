@@ -1,32 +1,45 @@
+/* Reset some default styles */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/* Basic body styling */
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+    color: #333;
+    padding: 20px;
 }
 
-.container {
+/* Header */
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h1 {
+    color: #444;
+}
+
+/* Cards Container */
+.cards-container {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-around;
     gap: 20px;
-    justify-content: center;
 }
 
+/* Individual Card */
 .card {
-    background-color: #fff;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
     width: 200px;
-    height: 300px;
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    cursor: pointer;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
     transition: transform 0.3s;
 }
 
@@ -34,59 +47,28 @@ body {
     transform: scale(1.05);
 }
 
-.photo {
-    width: 100%;
-    height: 150px;
-    object-fit: cover;
-    border-radius: 10px 10px 0 0;
-}
-
-.info {
-    padding: 10px;
-    text-align: center;
-}
-
-.class {
-    margin-top: 10px;
-    padding: 5px;
-    color: #fff;
-    font-weight: bold;
-    border-radius: 5px;
-    font-size: 14px;
-}
-
-.modal {
-    display: none;
-    position: fixed;
-    z-index: 1;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-}
-
-.modal-content {
-    background-color: white;
-    margin: 10% auto;
-    padding: 20px;
-    width: 70%;
-    max-width: 600px;
-    border-radius: 10px;
-    text-align: center;
-}
-
-.close-btn {
-    position: absolute;
-    top: 10px;
-    right: 20px;
-    font-size: 30px;
-    cursor: pointer;
-}
-
-.modal-photo {
-    width: 100%;
-    max-width: 300px;
+/* Card Image */
+.card img {
+    max-width: 100%;
     height: auto;
-    margin-top: 20px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+/* Card Title */
+.card h3 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+/* Card Description */
+.card p {
+    font-size: 14px;
+    color: #777;
+}
+
+footer {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 14px;
 }
