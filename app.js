@@ -44,12 +44,11 @@ fetch('data.json')
                 detailsTooltip.classList.add('details-tooltip');
                 detailsTooltip.style.display = 'none'; // On cache les détails par défaut
 
-                // Si des détails existent, les afficher dans le tooltip
+                // Si des détails existent, les afficher dans le tooltip, sinon on affiche "Aucun détail"
                 if (details.length > 0) {
                     detailsTooltip.textContent = details.join(", ");
                 } else {
-                    // Si aucun détail, on affiche juste le nom de l'immunité
-                    detailsTooltip.textContent = immunite;
+                    detailsTooltip.textContent = "Aucun détail disponible";
                 }
                 
                 immuniteElement.appendChild(detailsTooltip);
