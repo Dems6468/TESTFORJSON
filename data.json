@@ -1,12 +1,23 @@
 [
-  {
-    "Champion Name": "Abomination",
-    "Short Name": "Abomination",
-    "Class": "Science",
-    "Immunities": {
-      "Poison": []
+    {
+        "Champion Name": "Abomination",
+        "Short Name": "Abomination",
+        "Class": "Science",
+        "Immunities": {
+            "Poison": []
+        },
+        "Emplacements Photos": "faces",
+        "Photos": []
     },
-    "Emplacements Photos": "faces",
-    "Photos": []
-  }
+    {
+        "Champion Name": "Hulk",
+        "Short Name": "Hulk",
+        "Class": "Mutant",
+        "Immunities": {
+            "Poison": [],
+            "Bleed": []
+        },
+        "Emplacements Photos": "hulk-face",
+        "Photos": []
+    }
 ]
