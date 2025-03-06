@@ -1,4 +1,3 @@
-// Charger les données JSON (ici on suppose qu'elles sont dans un fichier "data.json")
 fetch('data.json')
   .then(response => response.json())
   .then(data => {
@@ -29,11 +28,30 @@ fetch('data.json')
         classe.textContent = `Classe: ${personnage.Classe}`;
         infoDiv.appendChild(classe);
 
-        // Ajouter les immunités
+        // Afficher les immunités
         if (personnage.immunite) {
-            const immunites = document.createElement('p');
-            immunites.textContent = `Immunités: ${JSON.stringify(personnage.immunite)}`;
-            infoDiv.appendChild(immunites);
+            const immunitesDiv = document.createElement('div');
+            immunitesDiv.classList.add('immunites');
+
+            // Parcourir les immunités
+            for (const [immunite, details] of Object.entries(personnage.immunite)) {
+                // Créer un élément pour chaque immunité
+                const immuniteElement = document.createElement('p');
+                immuniteElement.textContent = immunite;
+
+                // Ajouter un événement au clic pour afficher les détails
+                immuniteElement.addEventListener('click', () => {
+                    // Créer un paragraphe pour afficher les détails (par exemple "100% Resistance")
+                    const detailsElement = document.createElement('span');
+                    detailsElement.textContent = `: ${details.join(", ")}`;
+                    immuniteElement.appendChild(detailsElement);
+                    immuniteElement.style.color = 'blue'; // Change la couleur pour signaler que c'est cliquable
+                });
+
+                immunitesDiv.appendChild(immuniteElement);
+            }
+
+            infoDiv.appendChild(immunitesDiv);
         }
 
         // Ajouter la carte à la liste
