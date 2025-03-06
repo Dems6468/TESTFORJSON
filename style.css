@@ -93,3 +93,39 @@ h1 {
 .personnage-card p:hover {
     color: blue; /* Pour indiquer que c'est cliquable */
 }
+/* Style pour la carte de personnage */
+.personnage-card {
+    position: relative; /* Nécessaire pour positionner les tooltips par rapport à cette carte */
+    margin-bottom: 20px;
+    overflow: visible; /* Assure que les tooltips peuvent s'afficher au-dessus de la carte */
+}
+
+/* Style pour les immunités */
+.personnage-card p {
+    cursor: pointer;
+}
+
+.personnage-card p:hover {
+    color: blue; /* Pour indiquer que c'est cliquable */
+}
+
+/* Tooltip qui s'affiche au clic */
+.details-tooltip {
+    display: none; /* Cache les détails par défaut */
+    position: absolute; /* Positionnement absolu par rapport à son parent (la carte ou l'élément d'immunité) */
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 12px;
+    max-width: 250px;
+    z-index: 1000; /* On assure que le tooltip est au-dessus des autres éléments */
+    margin-top: 5px; /* Légère marge par rapport à l'immunité */
+}
+
+/* Si le tooltip est en bas de la carte, il doit être visible */
+.details-tooltip {
+    bottom: 100%; /* Cela assure que le tooltip est au-dessus de l'élément cliqué */
+    left: 0;
+    transform: translateX(0);
+}
