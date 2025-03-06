@@ -77,7 +77,7 @@ h1 {
 /* Tooltip (détails des immunités) */
 .details-tooltip {
     display: none; /* Cache les détails par défaut */
-    position: absolute; /* Positionnement absolu par rapport à son parent (la carte ou l'élément d'immunité) */
+    position: absolute; /* Positionnement absolu par rapport à l'élément immunité */
     background-color: rgba(0, 0, 0, 0.7);
     color: white;
     padding: 10px;
@@ -85,19 +85,19 @@ h1 {
     font-size: 12px;
     max-width: 250px;
     z-index: 1000; /* Assure que le tooltip est au-dessus des autres éléments */
-    margin-top: 5px; /* Légère marge par rapport à l'immunité */
-    word-wrap: break-word; /* Assure que le texte s'adapte à la largeur du tooltip */
+    word-wrap: break-word; /* Permet de gérer les longs textes */
 }
 
-/* Positionnement des tooltips : Par défaut, en bas de l'immunité */
+/* Positionnement du tooltip au-dessus de l'immunité */
 .details-tooltip {
-    bottom: 100%; /* Affiche le tooltip au-dessus de l'élément cliqué */
+    bottom: 100%; /* Affiche le tooltip juste au-dessus de l'immunité */
     left: 0;
+    margin-bottom: 5px; /* Ajoute un petit espace entre le texte de l'immunité et le tooltip */
 }
 
-/* Si l'espace en bas est insuffisant, le tooltip s'affiche en haut */
+/* Si le tooltip est trop bas, le déplacer vers le bas de l'immunité */
 .details-tooltip.top {
-    top: 100%; /* Affiche le tooltip en bas de l'élément cliqué */
+    top: 100%; /* Si l'espace en bas est insuffisant, affiche le tooltip en bas */
     bottom: auto;
 }
 
@@ -112,7 +112,7 @@ h1 {
 .personnage-card {
     position: relative; /* Nécessaire pour positionner les tooltips */
     margin-bottom: 20px;
-    overflow: visible; /* Permet aux tooltips de s'afficher en dehors de la carte */
+    overflow: visible; /* Permet aux tooltips de s'afficher au-dessus de la carte */
 }
 
 /* Changer la couleur des textes au survol */
