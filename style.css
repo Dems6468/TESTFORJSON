@@ -77,7 +77,7 @@ h1 {
 /* Tooltip (détails des immunités) */
 .details-tooltip {
     display: none; /* Cache les détails par défaut */
-    position: absolute; /* Positionnement absolu par rapport à l'élément immunité */
+    position: absolute; /* Positionnement par rapport à l'élément cliqué (l'immunité) */
     background-color: rgba(0, 0, 0, 0.7);
     color: white;
     padding: 10px;
@@ -88,17 +88,12 @@ h1 {
     word-wrap: break-word; /* Permet de gérer les longs textes */
 }
 
-/* Positionnement du tooltip au-dessus de l'immunité */
-.details-tooltip {
-    bottom: 100%; /* Affiche le tooltip juste au-dessus de l'immunité */
+/* Positionnement du tooltip sous l'immunité */
+.immunites p.active + .details-tooltip {
+    display: block; /* Affiche le tooltip si l'immunité est active (cliquée) */
+    top: 100%; /* Positionne le tooltip juste sous l'élément cliqué (l'immunité) */
     left: 0;
-    margin-bottom: 5px; /* Ajoute un petit espace entre le texte de l'immunité et le tooltip */
-}
-
-/* Si le tooltip est trop bas, le déplacer vers le bas de l'immunité */
-.details-tooltip.top {
-    top: 100%; /* Si l'espace en bas est insuffisant, affiche le tooltip en bas */
-    bottom: auto;
+    margin-top: 5px; /* Ajoute un petit espace entre l'immunité et le tooltip */
 }
 
 /* Affichage du message "Aucun détail disponible" */
