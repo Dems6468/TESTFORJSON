@@ -1,0 +1,2354 @@
+[
+    {
+        "Champion Name": "Abomination", 
+        "Short Name": "Abomination", 
+        "Class": "Science", 
+        "Immunities": {"Poison": []}, 
+        "Emplacements Photos": "faces\", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Abomination (Immortal)", 
+        "Short Name": "Abomination", 
+        "Class": "Science", 
+        "Immunities": {"Poison": ["100% Resistance"]}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Absorbing Man", 
+        "Short Name": "Absorbing Man", 
+        "Class": "Mystic", 
+        "Immunities": {"Armor Break": [], "Armor Shatter": [], "Bleed": ["Black Uru Form, SP1"], "Shock": ["Black Uru Form, SP1"], "Incinerate": ["Magma Form, SP2"], "Coldsnap": ["Magma Form, SP2"], "Frostbite": ["Magma Form, SP2"], "Poison": ["Synergy [Abomination Immortal, Hulk Immortal]"]}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Adam Warlock", 
+        "Short Name": "Adam Warlock", 
+        "Class": "Cosmic", 
+        "Immunities": {"Nullify": ["Sovereignty Buff"], "Stagger": ["Sovereignty Buff"], "Fate Seal": ["Sovereignty Buff"], "Stun": ["Sovereignty Buff ? 100% Parry Stun Ability Accuracy Reduction"], "Shock": ["Stasis Pod"], "Incinerate": ["Stasis Pod"], "Coldsnap": ["Stasis Pod"], "Frostbite": ["Stasis Pod"], "Ability Power Rate Reduction": ["Against Non-Mystic"]}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Aegon", 
+        "Short Name": "Aegon", 
+        "Class": "Skill", 
+        "Immunities": {}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Agent Venom", 
+        "Short Name": "Agent Venom", 
+        "Class": "Skill", 
+        "Immunities": {}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Air-Walker", 
+        "Short Name": "Air-Walker", 
+        "Class": "Cosmic", 
+        "Immunities": {"Power Drain": ["Against Tech & The Dark Tide ? 70% Less Potency and Duration"], "Power Lock": ["Against Tech & The Dark Tide ? 70% Less Potency and Duration"], "Power Burn": ["Against Tech & The Dark Tide ? 70% Less Potency and Duration"]}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "America Chavez", 
+        "Short Name": "America Chavez", 
+        "Class": "Mystic", 
+        "Immunities": {"Bleed": ["Synergy [Purgatory] & Synergy [Mephisto, The Hood, Magik, Dormammu]"]}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Angela", 
+        "Short Name": "Angela", 
+        "Class": "Cosmic", 
+        "Immunities": {"Nullify": ["10-35% Nullify Ability Accuracy Reduction per Buff"]}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Annihilus", 
+        "Short Name": "Annihilus", 
+        "Class": "Cosmic", 
+        "Immunities": {"Incinerate": ["Cosmic Control Rod"], "Coldsnap": ["Cosmic Control Rod"], "Frostbite": ["Cosmic Control Rod"], "Power Drain": ["Cosmic Control Rod"], "Power Burn": ["Cosmic Control Rod"], "Power Steal": ["Cosmic Control Rod"], "Power Lock": ["Cosmic Control Rod"], "Enervate": ["Cosmic Control Rod"], "Stun": ["While Attacking ? 60%"]}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Ant-Man", 
+        "Short Name": "Ant-Man", 
+        "Class": "Science", 
+        "Immunities": {"Buffs": [], "Shock": [], "Poison": []}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Ant-Man (Future)", 
+        "Short Name": "Ant-Man", 
+        "Class": "Tech", 
+        "Immunities": {"Bleed": ["Dupe ? 10-90% Duration Reduction", "Synergy [Purgatory] & Synergy [Mephisto, The Hood, Magik, Dormammu]"], "Incinerate": ["Dupe ? 10-90% Duration Reduction"], "Shock": ["Synergy [Odin, Ultron] & 60% Duration Reduction"]}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Anti-Venom", 
+        "Short Name": "Anti-Venom", 
+        "Class": "Science", 
+        "Immunities": {"Incinerate": [], "Poison": [], "Buffs": ["Synergy [Spiderman 2099, Doctor Octopus] & only for 10s"]}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Apocalypse", 
+        "Short Name": "Apocalypse", 
+        "Class": "Mutant", 
+        "Immunities": {"Bleed": ["8s"], "Incinerate": ["8s"], "Disorient": ["8s"], "Stun": ["3+ Charges"]}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Arcade", 
+        "Short Name": "Arcade", 
+        "Class": "Tech", 
+        "Immunities": {"Incinerate": ["Power-Up Pre-Fight & Non-Cosmic Opponent", "As a Defender & Non-Cosmic Opponent"], "Poison": ["Cheat Code Pre-Fight & Non-Cosmic Opponent", "As a Defender & Non-Cosmic Opponent"], "Shock": ["Game Wizard Pre-Fight & Non-Cosmic Opponent", "As a Defender & Non-Cosmic Opponent"]}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Archangel", 
+        "Short Name": "Archangel", 
+        "Class": "Mutant", 
+        "Immunities": {"Ability Accuracy Reduction": []}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Arnim Zola", 
+        "Short Name": "Arnim Zola", 
+        "Class": "Tech", 
+        "Immunities": {"Bleed": [], "Poison": [], "Ability Accuracy Modification": [], "Combat Power Rate Modification": []}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Attuma", 
+        "Short Name": "Attuma", 
+        "Class": "Skill", 
+        "Immunities": {"Ability Accuracy Reduction": ["Modification is reversed"], "Bleed": ["Dupe ? 50-90% Resistance"], "Incinerate": ["3+ Hydration"], "Regeneration Rate Modification": []}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Baron Zemo", 
+        "Short Name": "Baron Zemo", 
+        "Class": "Skill", 
+        "Immunities": {}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Beast", 
+        "Short Name": "Beast", 
+        "Class": "Mutant", 
+        "Immunities": {"Bleed": ["65% Resistance and Duration Reduction"]}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Beta Ray Bill", 
+        "Short Name": "Beta Ray Bill", 
+        "Class": "Cosmic", 
+        "Immunities": {"Shock": [], "Power Drain": [], "Bleed": ["50% Resistance"], "Poison": ["50% Resistance"]}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Bishop", 
+        "Short Name": "Bishop", 
+        "Class": "Mutant", 
+        "Immunities": {"Stun": ["Dupe ? Start a Fight with 1 Bar ? While Blocking"], "Ability Accuracy Reduction": ["Dupe ? Start a Fight with 1 Bar ? While Blocking ? 10-80% Reduction"]}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Black Bolt", 
+        "Short Name": "Black Bolt", 
+        "Class": "Cosmic", 
+        "Immunities": {"Poison": []}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Black Cat", 
+        "Short Name": "Black Cat", 
+        "Class": "Skill", 
+        "Immunities": {}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Black Panther", 
+        "Short Name": "Black Panther", 
+        "Class": "Skill", 
+        "Immunities": {}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Black Panther (Civil War)", 
+        "Short Name": "Black Panther", 
+        "Class": "Skill", 
+        "Immunities": {}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Black Widow", 
+        "Short Name": "Black Widow", 
+        "Class": "Skill", 
+        "Immunities": {}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Black Widow (Claire Voyant)", 
+        "Short Name": "Black Widow", 
+        "Class": "Mystic", 
+        "Immunities": {"Bleed": ["Curse of Blood"], "Poison": ["Curse of Plague"], "Incinerate": ["Curse of Hellfire"], "Death Immunity": ["Dupe & After SP3"]}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Black Widow (Deadly Origin)", 
+        "Short Name": "Black Widow", 
+        "Class": "Skill", 
+        "Immunities": {}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Blade", 
+        "Short Name": "Blade", 
+        "Class": "Skill", 
+        "Immunities": {}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Bullseye", 
+        "Short Name": "Bullseye", 
+        "Class": "Skill", 
+        "Immunities": {"Precision": [], "Fatigue": []}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Cable", 
+        "Short Name": "Cable", 
+        "Class": "Mutant", 
+        "Immunities": {"Poison": ["20-100% Duration Reduction", "Synergy [Magneto House of X] ? 60% Resistance"]}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Captain America", 
+        "Short Name": "Captain America", 
+        "Class": "Science", 
+        "Immunities": {}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Captain America (Infinity War)", 
+        "Short Name": "Captain America", 
+        "Class": "Science", 
+        "Immunities": {}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Captain America (Sam Wilson)", 
+        "Short Name": "Captain America", 
+        "Class": "Tech", 
+        "Immunities": {"Bleed": ["25-100% Bleed AA Reduction per Armor Up"]}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Captain America (Wwii)", 
+        "Short Name": "Captain America", 
+        "Class": "Science", 
+        "Immunities": {}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Captain Britain", 
+        "Short Name": "Captain Britain", 
+        "Class": "Mutant", 
+        "Immunities": {"Reversed Controls": ["#Psychic Shielding"]}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Captain Marvel", 
+        "Short Name": "Captain Marvel", 
+        "Class": "Cosmic", 
+        "Immunities": {"Poison": []}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Captain Marvel (Classic)", 
+        "Short Name": "Captain Marvel", 
+        "Class": "Cosmic", 
+        "Immunities": {"Poison": []}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Carnage", 
+        "Short Name": "Carnage", 
+        "Class": "Cosmic", 
+        "Immunities": {}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Cassie Lang", 
+        "Short Name": "Cassie Lang", 
+        "Class": "Science", 
+        "Immunities": {"Power Steal": ["Dupe"], "Buffs": [], "Poison": [], "Shock": []}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Chee'Ilth", 
+        "Short Name": "Chee'Ilth", 
+        "Class": "Skill", 
+        "Immunities": {}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Civil Warrior", 
+        "Short Name": "Civil Warrior", 
+        "Class": "Tech", 
+        "Immunities": {"Nullify": [], "Stagger": [], "Bleed": ["25% Resistance per Armor Up"], "Poison": ["25% Resistance per Armor Up"]}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Colossus", 
+        "Short Name": "Colossus", 
+        "Class": "Mutant", 
+        "Immunities": {"Bleed": [], "Incinerate": [], "Coldsnap": [], "Frostbite": [], "Armor Break": ["Against Non-Tech"], "Armor Shatter": ["Against Non-Tech"]}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Corvus Glaive", 
+        "Short Name": "Corvus Glaive", 
+        "Class": "Cosmic", 
+        "Immunities": {"Bleed": ["Glaive's Charges"], "Coldsnap": ["Glaive's Charges"], "Shock": ["Glaive's Charges"], "Frostbite": ["Glaive's Charges"]}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Cosmic Ghost Rider", 
+        "Short Name": "Cosmic Ghost Rider", 
+        "Class": "Cosmic", 
+        "Immunities": {"Bleed": [], "Incinerate": []}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Count Nefaria", 
+        "Short Name": "Count Nefaria", 
+        "Class": "Science", 
+        "Immunities": {"Power Steal": [], "Bleed": [], "Shock": ["90% Resistance"], "Incinerate": ["90% Resistance"], "Degeneration": ["0-90% Resistance based on Ionic Charges"]}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Crossbones", 
+        "Short Name": "Crossbones", 
+        "Class": "Skill", 
+        "Immunities": {"Nullify": ["Synergy [Punisher 2099, Red Skull] & #Hero Opponent"], "Stagger": ["Synergy [Punisher 2099, Red Skull] & #Hero Opponent"]}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Cull Obsidian", 
+        "Short Name": "Cull Obsidian", 
+        "Class": "Cosmic", 
+        "Immunities": {}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Cyclops (Blue Team)", 
+        "Short Name": "Cyclops", 
+        "Class": "Mutant", 
+        "Immunities": {}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Cyclops (New Xavier School)", 
+        "Short Name": "Cyclops", 
+        "Class": "Mutant", 
+        "Immunities": {}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Dani Moonstar", 
+        "Short Name": "Dani Moonstar", 
+        "Class": "Mutant", 
+        "Immunities": {}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Daredevil (Classic)", 
+        "Short Name": "Daredevil", 
+        "Class": "Skill", 
+        "Immunities": {}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Daredevil (Hell'S Kitchen)", 
+        "Short Name": "Daredevil (H.K.)", 
+        "Class": "Skill", 
+        "Immunities": {"Regeneration Rate Modification": ["Except Poison"]}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Darkhawk", 
+        "Short Name": "Darkhawk", 
+        "Class": "Tech", 
+        "Immunities": {"Bleed": [], "Poison": []}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Dazzler", 
+        "Short Name": "Dazzler", 
+        "Class": "Mutant", 
+        "Immunities": {"Nullify": [], "Incinerate": ["Synergy [Kitty Pride]"]}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Deadpool", 
+        "Short Name": "Deadpool", 
+        "Class": "Mutant", 
+        "Immunities": {}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Deadpool (X-Force)", 
+        "Short Name": "Deadpool", 
+        "Class": "Mutant", 
+        "Immunities": {}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Diablo", 
+        "Short Name": "Diablo", 
+        "Class": "Mystic", 
+        "Immunities": {"Poison": ["100% Potency"], "Armor Break": ["Grain of Uru"], "Stun": ["Grain of Uru"]}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Doctor Doom", 
+        "Short Name": "Doctor Doom", 
+        "Class": "Mystic", 
+        "Immunities": {"Shock": [], "Armor Break": [], "Armor Shatter": [], "Stun": ["Aura & Last Hit of SP1, SP2 or Heavy"]}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Doctor Octopus", 
+        "Short Name": "Doctor Octopus", 
+        "Class": "Tech", 
+        "Immunities": {}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Doctor Strange", 
+        "Short Name": "Dr. Strange", 
+        "Class": "Mystic", 
+        "Immunities": {}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Doctor Voodoo", 
+        "Short Name": "Doctor Voodoo", 
+        "Class": "Mystic", 
+        "Immunities": {}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Domino", 
+        "Short Name": "Domino", 
+        "Class": "Mutant", 
+        "Immunities": {"Bleed": ["50% chance to expire after 1s"]}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Dormammu", 
+        "Short Name": "Dormammu", 
+        "Class": "Mystic", 
+        "Immunities": {"Bleed": [], "Poison": []}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Dragon Man", 
+        "Short Name": "Dragon Man", 
+        "Class": "Mystic", 
+        "Immunities": {"Bleed": [], "Poison": [], "Armor Shatter": []}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Drax", 
+        "Short Name": "Drax", 
+        "Class": "Cosmic", 
+        "Immunities": {}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Dust", 
+        "Short Name": "Dust", 
+        "Class": "Mutant", 
+        "Immunities": {"Bleed": [], "Poison": [], "Shock": [], "Reversed Controls": ["#Psychic Shielding"]}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Ebony Maw", 
+        "Short Name": "Ebony Maw", 
+        "Class": "Mystic", 
+        "Immunities": {}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Electro", 
+        "Short Name": "Electro", 
+        "Class": "Science", 
+        "Immunities": {"Shock": ["100% Resistance"]}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Elektra", 
+        "Short Name": "Elektra", 
+        "Class": "Skill", 
+        "Immunities": {}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Elsa Bloodstone", 
+        "Short Name": "Elsa Bloodstone", 
+        "Class": "Skill", 
+        "Immunities": {}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Emma Frost", 
+        "Short Name": "Emma Frost", 
+        "Class": "Mutant", 
+        "Immunities": {"Bleed": ["Diamond Form"], "Poison": ["Diamond Form"], "Incinerate": ["Diamond Form"], "Coldsnap": ["Diamond Form"], "Shock": ["Diamond Form"], "Frostbite": ["Diamond Form"], "Stun": ["Diamond Form"], "Fatigue": ["Diamond Form"], "Exhaustion": ["Diamond Form"], "Concussion": ["Diamond Form"], "Reversed Controls": ["Synergy [Mysterio]"]}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Enchantress", 
+        "Short Name": "Enchantress", 
+        "Class": "Mystic", 
+        "Immunities": {"Power Lock": [], "Ability Power Rate Reduction": ["Can't be reduced below 50%"], "Combat Power Rate Reduction": ["Can't be reduced below 50%"], "Reversed Controls": ["SP1 & Haste Spell, ??????"]}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Falcon", 
+        "Short Name": "Falcon", 
+        "Class": "Skill", 
+        "Immunities": {}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Falcon (Joaquin Torres)", 
+        "Short Name": "Falcon (Joaquin Torres)", 
+        "Class": "Science", 
+        "Immunities": {}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Galan", 
+        "Short Name": "Galan", 
+        "Class": "Cosmic", 
+        "Immunities": {"Fate Seal": [], "Nullify": [], "Power Drain": [], "Power Burn": [], "Power Lock": [], "Special Lock": [], "Stun": ["Dupe & Harvest"], "Bleed": ["Synergy [Purgatory] & Synergy [Mephisto, The Hood, Magik, Dormammu]"]}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Gambit", 
+        "Short Name": "Gambit", 
+        "Class": "Mutant", 
+        "Immunities": {"Bleed": ["Flak Jacket ? 150% Resistance"]}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Gamora", 
+        "Short Name": "Gamora", 
+        "Class": "Cosmic", 
+        "Immunities": {}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Gentle", 
+        "Short Name": "Gentle", 
+        "Class": "Mutant", 
+        "Immunities": {"Bleed": [], "Stun": ["While performing Well-Timed Block"]}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Ghost", 
+        "Short Name": "Ghost", 
+        "Class": "Tech", 
+        "Immunities": {}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Ghost Rider", 
+        "Short Name": "Ghost Rider", 
+        "Class": "Mystic", 
+        "Immunities": {"Bleed": [], "Incinerate": [], "Degeneration": ["Synergy [America Chavez] ? 25% Resistance"]}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Gladiator", 
+        "Short Name": "Gladiator", 
+        "Class": "Cosmic", 
+        "Immunities": {"Power Drain": [], "Power Burn": [], "Stun": ["20+ Confidence & During Specials"]}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Goldpool", 
+        "Short Name": "Goldpool", 
+        "Class": "Mutant", 
+        "Immunities": {"Bleed": ["20% Resistance", "Synergy [Deadpool, Venompool, Deadpool X-Force, Gwenpool] ? 20% Resistance"]}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Gorr", 
+        "Short Name": "Gorr", 
+        "Class": "Cosmic", 
+        "Immunities": {"Heal Block": []}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Green Goblin", 
+        "Short Name": "Green Goblin", 
+        "Class": "Tech", 
+        "Immunities": {}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Groot", 
+        "Short Name": "Groot", 
+        "Class": "Cosmic", 
+        "Immunities": {"Bleed": []}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Guardian", 
+        "Short Name": "Guardian", 
+        "Class": "Tech", 
+        "Immunities": {"Bleed": ["Dupe ? 25-80% Resistance"]}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Guillotine", 
+        "Short Name": "Guillotine", 
+        "Class": "Mystic", 
+        "Immunities": {}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Guillotine (Deathless)", 
+        "Short Name": "Guillotine", 
+        "Class": "Mystic", 
+        "Immunities": {}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Guillotine 2099", 
+        "Short Name": "Guillotine 2099", 
+        "Class": "Tech", 
+        "Immunities": {"Bleed": [], "Poison": []}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Gwenpool", 
+        "Short Name": "Gwenpool", 
+        "Class": "Skill", 
+        "Immunities": {}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Havok", 
+        "Short Name": "Havok", 
+        "Class": "Mutant", 
+        "Immunities": {"Incinerate": []}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Hawkeye", 
+        "Short Name": "Hawkeye", 
+        "Class": "Skill", 
+        "Immunities": {"Poison": ["Synergy [Nick Fury, Black Widow, Black Widow Deadly Origin, Quake] & Against Non-Mutants"]}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Heimdall", 
+        "Short Name": "Heimdall", 
+        "Class": "Cosmic", 
+        "Immunities": {}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Hela", 
+        "Short Name": "Hela", 
+        "Class": "Cosmic", 
+        "Immunities": {}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Hercules", 
+        "Short Name": "Hercules", 
+        "Class": "Cosmic", 
+        "Immunities": {"Stun": ["1+ Strength"], "Poison": ["15% Resistance"], "Bleed": ["50% Resistance"]}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Hit-Monkey", 
+        "Short Name": "Hit-Monkey", 
+        "Class": "Skill", 
+        "Immunities": {}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Howard The Duck", 
+        "Short Name": "Howard The Duck", 
+        "Class": "Tech", 
+        "Immunities": {"Bleed": []}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Hulk", 
+        "Short Name": "Hulk", 
+        "Class": "Science", 
+        "Immunities": {"Poison": [], "Degeneration": ["0-90% Resistance based on missing Health"], "Nullify": ["Synergy [Hulkbuster]"], "Fate Seal": ["Synergy [Hulkbuster]"], "Stagger": ["Synergy [Hulkbuster]"], "Buffs": ["Synergy [Silver Surfer]"], "Reversed Controls": ["Synergy [The Overseer]"]}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Hulk (Immortal)", 
+        "Short Name": "Hulk", 
+        "Class": "Science", 
+        "Immunities": {"Poison": [], "Regeneration Rate Modification": [], "Reversed Controls": ["Synergy [The Overseer]"]}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Hulk (Ragnarok)", 
+        "Short Name": "Hulk", 
+        "Class": "Science", 
+        "Immunities": {"Poison": [], "Reversed Controls": ["Synergy [The Overseer]"]}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Hulkbuster", 
+        "Short Name": "Hulkbuster", 
+        "Class": "Tech", 
+        "Immunities": {"Bleed": ["25% Resistance per Armor Up"], "Poison": ["25% Resistance per Armor Up"]}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Hulkling", 
+        "Short Name": "Hulkling", 
+        "Class": "Cosmic", 
+        "Immunities": {"Poison": [], "Shock": [], "Power Drain": [], "Power Steal": [], "Power Burn": [], "Heal Block": ["-2s Duration"], "Stun": ["Synergy [Wiccan] & 3+ Pierce Buffs"]}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Human Torch", 
+        "Short Name": "Human Torch", 
+        "Class": "Science", 
+        "Immunities": {"Incinerate": [], "Coldsnap": [], "Frostbite": []}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Hyperion", 
+        "Short Name": "Hyperion", 
+        "Class": "Cosmic", 
+        "Immunities": {"Poison": []}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Iceman", 
+        "Short Name": "Iceman", 
+        "Class": "Mutant", 
+        "Immunities": {"Bleed": [], "Poison": [], "Incinerate": [], "Nova Flame": [], "Coldsnap": [], "Frostbite": []}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Ikaris", 
+        "Short Name": "Ikaris", 
+        "Class": "Cosmic", 
+        "Immunities": {"Incinerate": [], "Shock": [], "Poison": ["20% Resistance"]}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Invisible Woman", 
+        "Short Name": "Invisible Woman", 
+        "Class": "Science", 
+        "Immunities": {}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Iron Fist", 
+        "Short Name": "Iron Fist", 
+        "Class": "Mystic", 
+        "Immunities": {}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Iron Fist (Immortal)", 
+        "Short Name": "Iron Fist", 
+        "Class": "Mystic", 
+        "Immunities": {}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Iron Man", 
+        "Short Name": "Iron Man", 
+        "Class": "Tech", 
+        "Immunities": {"Coldsnap": ["Armor Up"], "Frostbite": ["Armor Up"], "Incinerate": ["Armor Up"], "Nullify": ["Only Personal Armor Ups"], "Stagger": ["Only Personal Armor Ups"]}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Iron Man (Infamous)", 
+        "Short Name": "Infamous Iron Man", 
+        "Class": "Tech", 
+        "Immunities": {"Shock": ["Armor Up"], "Incinerate": ["Armor Up"], "Stun": ["Aura & Last Hit of SP1, SP2 or Heavy"]}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Iron Man (Infinity War)", 
+        "Short Name": "Iron Man", 
+        "Class": "Tech", 
+        "Immunities": {"Bleed": ["Molecular Armor"], "Coldsnap": ["Molecular Armor"], "Power Drain": ["18% Resistance per Armor"], "Power Burn": ["18% Resistance per Armor"], "Power Steal": ["18% Resistance per Armor"]}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Iron Patriot", 
+        "Short Name": "Iron Patriot", 
+        "Class": "Tech", 
+        "Immunities": {}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Ironheart", 
+        "Short Name": "Ironheart", 
+        "Class": "Tech", 
+        "Immunities": {"Reversed Controls": ["Armor Up"], "Incinerate": ["Armor Up"], "Coldsnap": ["Armor Up"], "Frostbite": ["Armor Up"], "Ability Accuracy Reduction": ["Armor Up & Against Mutants ? Abilities are unaffected"]}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Isophyne", 
+        "Short Name": "Isophyne", 
+        "Class": "Mystic", 
+        "Immunities": {"Bleed": [], "Coldsnap": [], "Frostbite": []}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Jabari Panther", 
+        "Short Name": "Jabari Panther", 
+        "Class": "Skill", 
+        "Immunities": {"Stun": ["Hunt Active"]}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Jack O'Lantern", 
+        "Short Name": "Jack O'Lantern", 
+        "Class": "Tech", 
+        "Immunities": {"Reversed Controls": [], "Incinerate": []}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Jessica Jones", 
+        "Short Name": "Jessica Jones", 
+        "Class": "Science", 
+        "Immunities": {"Reversed Controls": ["#Psychic Shielding"]}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Joe Fixit", 
+        "Short Name": "Joe Fixit", 
+        "Class": "Science", 
+        "Immunities": {"Poison": [], "Reversed Controls": ["Synergy [The Overseer]"]}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Jubilee", 
+        "Short Name": "Jubilee", 
+        "Class": "Mutant", 
+        "Immunities": {}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Juggernaut", 
+        "Short Name": "Juggernaut", 
+        "Class": "Mystic", 
+        "Immunities": {"Reversed Controls": ["Crimson Gem active", "#Psychic Shielding"], "Stun": ["20% Ability Reduction per Unstoppable"]}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Kang", 
+        "Short Name": "Kang", 
+        "Class": "Tech", 
+        "Immunities": {}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Karnak", 
+        "Short Name": "Karnak", 
+        "Class": "Skill", 
+        "Immunities": {"Poison": ["65% Resistance"]}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Kate Bishop", 
+        "Short Name": "Kate Bishop", 
+        "Class": "Skill", 
+        "Immunities": {"Stun": ["Attacked while Stunned ? Purify Stun"]}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Killmonger", 
+        "Short Name": "Killmonger", 
+        "Class": "Skill", 
+        "Immunities": {}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Kindred", 
+        "Short Name": "Kindred", 
+        "Class": "Mystic", 
+        "Immunities": {"Poison": [], "Incinerate": [], "Heal Block": [], "Infuriate": [], "Intimidate": [], "Stun": ["Dread Aura"]}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "King Groot", 
+        "Short Name": "King Groot", 
+        "Class": "Cosmic", 
+        "Immunities": {"Bleed": [], "Power Drain": [], "Power Burn": []}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "King Groot (Deathless)", 
+        "Short Name": "King Groot", 
+        "Class": "Cosmic", 
+        "Immunities": {"Bleed": [], "Power Drain": [], "Power Burn": []}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Kingpin", 
+        "Short Name": "Kingpin", 
+        "Class": "Skill", 
+        "Immunities": {"Regeneration Rate Modification": ["Except Poison"]}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Kitty Pryde", 
+        "Short Name": "Kitty Pryde", 
+        "Class": "Mutant", 
+        "Immunities": {"Incinerate": [], "Stun": ["Phase"]}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Knull", 
+        "Short Name": "Knull", 
+        "Class": "Cosmic", 
+        "Immunities": {"Bleed": ["60% Resistance"], "Poison": ["60% Resistance"], "Degeneration": ["40% Resistance"]}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Korg", 
+        "Short Name": "Korg", 
+        "Class": "Skill", 
+        "Immunities": {"Bleed": [], "Shock": []}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Kraven", 
+        "Short Name": "Kraven", 
+        "Class": "Skill", 
+        "Immunities": {"Bleed": ["Synergy [Arcade]"]}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Kushala", 
+        "Short Name": "Kushala", 
+        "Class": "Mystic", 
+        "Immunities": {"Bleed": [], "Incinerate": []}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Lady Deathstrike", 
+        "Short Name": "Lady Deathstrike", 
+        "Class": "Tech", 
+        "Immunities": {"Bleed": ["90% Resistance"], "Poison": ["90% Resistance"], "Ability Accuracy Reduction": ["Against Mutants"], "Armor Break": ["Nanorobots Regenerator"], "Rupture": ["Nanorobots Regenerator"], "Regeneration Rate Modification": [], "Heal Block": ["Immediately Removed"]}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Loki", 
+        "Short Name": "Loki", 
+        "Class": "Mystic", 
+        "Immunities": {}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Longshot", 
+        "Short Name": "Longshot", 
+        "Class": "Mystic", 
+        "Immunities": {}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Luke Cage", 
+        "Short Name": "Luke Cage", 
+        "Class": "Science", 
+        "Immunities": {"Bleed": []}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "M.O.D.O.K.", 
+        "Short Name": "M.O.D.O.K.", 
+        "Class": "Science", 
+        "Immunities": {"Poison": ["Synergy [Abomination] ? 50% Resistance"]}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Maestro", 
+        "Short Name": "Maestro", 
+        "Class": "Cosmic", 
+        "Immunities": {"Poison": [], "Shock": [], "Incinerate": []}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Magik", 
+        "Short Name": "Magik", 
+        "Class": "Mystic", 
+        "Immunities": {"Bleed": ["Synergy [Purgatory]"]}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Magneto", 
+        "Short Name": "Magneto", 
+        "Class": "Mutant", 
+        "Immunities": {"Bleed": ["90% Resistance"], "Shock": ["90% Resistance"], "Reversed Controls": ["#Psychic Shielding"]}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Magneto (House Of X)", 
+        "Short Name": "Magneto", 
+        "Class": "Mutant", 
+        "Immunities": {"Bleed": [], "Reversed Controls": ["#Psychic Shielding"]}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Man-Thing", 
+        "Short Name": "Man-Thing", 
+        "Class": "Mystic", 
+        "Immunities": {"Bleed": [], "Armor Break": [], "Armor Shatter": []}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Mangog", 
+        "Short Name": "Mangog", 
+        "Class": "Mystic", 
+        "Immunities": {"Bleed": [], "Armor Break": [], "Shock": ["SP1 & Enraged"], "Incinerate": ["SP1 & Enraged"], "Coldsnap": ["SP1 & Enraged"], "Frostbite": ["SP1 & Enraged"], "Nullify": ["Synergy [Odin]"]}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Mantis", 
+        "Short Name": "Mantis", 
+        "Class": "Skill", 
+        "Immunities": {}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Masacre", 
+        "Short Name": "Masacre", 
+        "Class": "Skill", 
+        "Immunities": {}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Medusa", 
+        "Short Name": "Medusa", 
+        "Class": "Cosmic", 
+        "Immunities": {"Poison": []}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Mephisto", 
+        "Short Name": "Mephisto", 
+        "Class": "Mystic", 
+        "Immunities": {"Poison": [], "Incinerate": [], "Coldsnap": [], "Frostbite": [], "Ability Accuracy Reduction": ["Passive"], "Bleed": ["Synergy [Purgatory]"]}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Mister Fantastic", 
+        "Short Name": "Mister Fantastic", 
+        "Class": "Science", 
+        "Immunities": {}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Mister Negative", 
+        "Short Name": "Mister Negative", 
+        "Class": "Science", 
+        "Immunities": {"Nullify": [], "Fate Seal": [], "Stagger": [], "Degeneration": ["40-100% Resistance"]}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Mister Sinister", 
+        "Short Name": "Mister Sinister", 
+        "Class": "Mutant", 
+        "Immunities": {"Bleed": ["100% Resistance"], "Taunt": [], "Reversed Controls": ["#Psychic Shielding"]}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Misty Knight", 
+        "Short Name": "Misty Knight", 
+        "Class": "Skill", 
+        "Immunities": {}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Mojo", 
+        "Short Name": "Mojo", 
+        "Class": "Mystic", 
+        "Immunities": {}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Mole Man", 
+        "Short Name": "Mole Man", 
+        "Class": "Skill", 
+        "Immunities": {"Shock": []}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Moon Knight", 
+        "Short Name": "Moon Knight", 
+        "Class": "Skill", 
+        "Immunities": {}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Moondragon", 
+        "Short Name": "Moondragon", 
+        "Class": "Skill", 
+        "Immunities": {"Reversed Controls": [], "Bleed": ["30-80% Resistance"], "Power Sting": ["30-80% Resistance"], "Degeneration": ["30-80% Resistance"], "Poison": ["30-80% Resistance"]}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Morbius", 
+        "Short Name": "Morbius", 
+        "Class": "Science", 
+        "Immunities": {}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Mordo", 
+        "Short Name": "Mordo", 
+        "Class": "Mystic", 
+        "Immunities": {"Ability Accuracy Reduction": ["Passive"], "Nullify": ["Synergy [Sorcerer Supreme] &\xa0Against Mystic"], "Fate Seal": ["Synergy [Sorcerer Supreme] & Against Mystic"]}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Morningstar", 
+        "Short Name": "Morningstar", 
+        "Class": "Mystic", 
+        "Immunities": {"Bleed": []}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Ms. Marvel", 
+        "Short Name": "Ms. Marvel", 
+        "Class": "Cosmic", 
+        "Immunities": {"Poison": []}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Ms. Marvel (Kamala Khan)", 
+        "Short Name": "Ms. Marvel", 
+        "Class": "Cosmic", 
+        "Immunities": {"Poison": []}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Mysterio", 
+        "Short Name": "Mysterio", 
+        "Class": "Tech", 
+        "Immunities": {"Poison": ["Helmet"], "Ability Accuracy Reduction": ["Helmet"], "Reversed Controls": ["Synergy [Emma Frost]"]}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Namor", 
+        "Short Name": "Namor", 
+        "Class": "Mutant", 
+        "Immunities": {}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Nebula", 
+        "Short Name": "Nebula", 
+        "Class": "Tech", 
+        "Immunities": {"Bleed": [], "Poison": [], "Shock": []}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Negasonic Teenage Warhead", 
+        "Short Name": "Negasonic Teenage", 
+        "Class": "Mutant", 
+        "Immunities": {"Bleed Ability Accuracy Reduction": ["Against Skill"], "Evade Ability Accuracy Reduction": ["Against Skill"], "True Effect Ability Accuracy Reduction": ["Against Skill"]}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Nick Fury", 
+        "Short Name": "Nick Fury", 
+        "Class": "Skill", 
+        "Immunities": {"Stun": ["Dupe ? Second Life", "Hitting into Auto-Block"]}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Night Thrasher", 
+        "Short Name": "Night Thrasher", 
+        "Class": "Skill", 
+        "Immunities": {"Incinerate": []}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Nightcrawler", 
+        "Short Name": "Nightcrawler", 
+        "Class": "Mutant", 
+        "Immunities": {}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Nimrod", 
+        "Short Name": "Nimrod", 
+        "Class": "Tech", 
+        "Immunities": {"Bleed": [], "Poison": [], "Armor Break": ["100% Potency"], "Ability Accuracy Modification": ["Against Mutants"]}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Northstar", 
+        "Short Name": "Northstar", 
+        "Class": "Mutant", 
+        "Immunities": {}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Nova", 
+        "Short Name": "Nova", 
+        "Class": "Cosmic", 
+        "Immunities": {}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Odin", 
+        "Short Name": "Odin", 
+        "Class": "Cosmic", 
+        "Immunities": {"Shock": ["Synergy [Ant-Man Future] ? 50% Resistance"]}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Okoye", 
+        "Short Name": "Okoye", 
+        "Class": "Skill", 
+        "Immunities": {}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Old Man Logan", 
+        "Short Name": "Old Man Logan", 
+        "Class": "Mutant", 
+        "Immunities": {"Bleed": ["Active Regeneration ? 95% Resistance"], "Ability Accuracy Modification": []}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Omega Red", 
+        "Short Name": "Omega Red", 
+        "Class": "Mutant", 
+        "Immunities": {"Bleed": ["90% Resistance"], "Poison": []}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Omega Sentinel", 
+        "Short Name": "Omega Sentinel", 
+        "Class": "Tech", 
+        "Immunities": {"Bleed": ["100% Resistance"], "Poison": ["100% Resistance"], "Nullify": [], "Stagger": [], "Fate Seal": [], "Ability Accuracy Reduction": ["Against Mutant"]}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Onslaught", 
+        "Short Name": "Onslaught", 
+        "Class": "Mutant", 
+        "Immunities": {"Bleed": ["150% Resistance"], "Incinerate": ["150% Resistance"], "Shock": ["150% Resistance"], "Reversed Controls": ["#Psychic Shielding"]}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Patriot", 
+        "Short Name": "Patriot", 
+        "Class": "Skill", 
+        "Immunities": {"Regeneration Rate Reduction": []}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Peni Parker", 
+        "Short Name": "Peni Parker", 
+        "Class": "Tech", 
+        "Immunities": {"Poison": [], "Incinerate": [], "Stun": ["Synergy [Air-Walker, Falcon] & Sync-Shield Active"]}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Phoenix", 
+        "Short Name": "Phoenix", 
+        "Class": "Cosmic", 
+        "Immunities": {}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Photon", 
+        "Short Name": "Photon", 
+        "Class": "Science", 
+        "Immunities": {"Bleed": [], "Power Steal": [], "Neutralize": ["Dupe"], "Degeneration": ["Synergy [Mister Negative] ? Potency reduced by 20% per unique Debuff"]}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Platinumpool", 
+        "Short Name": "Platinumpool", 
+        "Class": "Mutant", 
+        "Immunities": {"Stun": ["Stun Boost ? 30% Duration Reduction"]}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Professor X", 
+        "Short Name": "Professor X", 
+        "Class": "Mutant", 
+        "Immunities": {"Reversed Controls": ["#Psychic Shielding"]}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Prowler", 
+        "Short Name": "Prowler", 
+        "Class": "Tech", 
+        "Immunities": {"Bleed": [], "Incinerate": [], "Falter": [], "Reversed Controls": ["Synergy [Spider-Punk] & Pre-Fight ? Controls are Inverted"]}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Proxima Midnight", 
+        "Short Name": "Proxima Midnight", 
+        "Class": "Cosmic", 
+        "Immunities": {}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Psycho-Man", 
+        "Short Name": "Psycho-Man", 
+        "Class": "Tech", 
+        "Immunities": {}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Psylocke", 
+        "Short Name": "Psylocke", 
+        "Class": "Mutant", 
+        "Immunities": {}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Punisher", 
+        "Short Name": "Punisher", 
+        "Class": "Skill", 
+        "Immunities": {}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Punisher 2099", 
+        "Short Name": "Punisher 2099", 
+        "Class": "Tech", 
+        "Immunities": {}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Purgatory", 
+        "Short Name": "Purgatory", 
+        "Class": "Mystic", 
+        "Immunities": {"Incinerate": [], "Bleed": ["Synergy [Mephisto, The Hood, Magik, Dormammu]"]}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Quake", 
+        "Short Name": "Quake", 
+        "Class": "Science", 
+        "Immunities": {}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Quicksilver", 
+        "Short Name": "Quicksilver", 
+        "Class": "Science", 
+        "Immunities": {"Ability Accuracy Reduction": ["Only Evade at 600+ Momentum Charges"], "Degeneration": ["Synergy [Wiccan] ? 8.3% Resistance per 100 Momentum Charges"]}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Red Goblin", 
+        "Short Name": "Red Goblin", 
+        "Class": "Cosmic", 
+        "Immunities": {"Incinerate": [], "Power Burn": []}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Red Guardian", 
+        "Short Name": "Red Guardian", 
+        "Class": "Science", 
+        "Immunities": {"Buffs": []}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Red Hulk", 
+        "Short Name": "Red Hulk", 
+        "Class": "Science", 
+        "Immunities": {"Poison": [], "Incinerate": []}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Red Skull", 
+        "Short Name": "Red Skull", 
+        "Class": "Tech", 
+        "Immunities": {"Nullify": ["Only effects from Champions"], "Fate Seal": ["Only effects from Champions"], "Stagger": ["Only effects from Champions"], "Ability Accuracy Reduction": ["Against Mutants"]}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Rhino", 
+        "Short Name": "Rhino", 
+        "Class": "Science", 
+        "Immunities": {}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Rintrah", 
+        "Short Name": "Rintrah", 
+        "Class": "Mystic", 
+        "Immunities": {"Armor Break": ["50-100% Potency"], "Stun": ["15+ Charges"], "Bleed": ["Synergy [Purgatory] & Synergy [Mephisto, The Hood, Magik, Dormammu]"]}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Rocket Raccoon", 
+        "Short Name": "Rocket Raccoon", 
+        "Class": "Tech", 
+        "Immunities": {}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Rogue", 
+        "Short Name": "Rogue", 
+        "Class": "Mutant", 
+        "Immunities": {}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Ronan", 
+        "Short Name": "Ronan", 
+        "Class": "Cosmic", 
+        "Immunities": {"Poison": []}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Ronin", 
+        "Short Name": "Ronin", 
+        "Class": "Skill", 
+        "Immunities": {}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Sabretooth", 
+        "Short Name": "Sabretooth", 
+        "Class": "Mutant", 
+        "Immunities": {"Coldsnap": [], "Frostbite": []}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Sandman", 
+        "Short Name": "Sandman", 
+        "Class": "Science", 
+        "Immunities": {"Bleed": [], "Poison": [], "Shock": []}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Sasquatch", 
+        "Short Name": "Sasquatch", 
+        "Class": "Mystic", 
+        "Immunities": {"Coldsnap": ["90% Resistance"], "Frostbite": [], "Armor Break": [], "Stun": ["Wrath of Tanaraq"]}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Sauron", 
+        "Short Name": "Sauron", 
+        "Class": "Mutant", 
+        "Immunities": {"Poison": [], "Bleed": ["95% Resistance"], "Power Steal": [], "Regeneration Rate Modification": []}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Scarlet Witch", 
+        "Short Name": "Scarlet Witch", 
+        "Class": "Mystic", 
+        "Immunities": {}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Scarlet Witch (Classic)", 
+        "Short Name": "Scarlet Witch", 
+        "Class": "Mystic", 
+        "Immunities": {}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Scorpion", 
+        "Short Name": "Scorpion", 
+        "Class": "Science", 
+        "Immunities": {"Shock": ["Based on Pre-Fight"], "Rupture": ["Based on Pre-Fight"], "Poison": ["Based on Pre-Fight"]}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Scream", 
+        "Short Name": "Scream", 
+        "Class": "Cosmic", 
+        "Immunities": {}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Sentinel", 
+        "Short Name": "Sentinel", 
+        "Class": "Tech", 
+        "Immunities": {"Bleed": [], "Poison": []}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Sentry", 
+        "Short Name": "Sentry", 
+        "Class": "Science", 
+        "Immunities": {}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Sersi", 
+        "Short Name": "Sersi", 
+        "Class": "Cosmic", 
+        "Immunities": {"Bleed": ["30-90% Duration Reduction"], "Shock": ["30-90% Duration Reduction"], "Incinerate": ["30-90% Duration Reduction"], "Heal Block": ["30-90% Duration Reduction"]}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Shang-Chi", 
+        "Short Name": "Shang-Chi", 
+        "Class": "Skill", 
+        "Immunities": {}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Shathra", 
+        "Short Name": "Shathra", 
+        "Class": "Mystic", 
+        "Immunities": {}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "She-Hulk", 
+        "Short Name": "She-Hulk", 
+        "Class": "Science", 
+        "Immunities": {"Poison": []}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "She-Hulk (Deathless)", 
+        "Short Name": "She-Hulk", 
+        "Class": "Science", 
+        "Immunities": {"Poison": [], "Rupture": ["Synergy [Thanos (Deathless)]"]}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Shocker", 
+        "Short Name": "Shocker", 
+        "Class": "Tech", 
+        "Immunities": {"Shock": [], "Concussion": [], "Stun": ["50% Duration Reduction"]}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Shuri", 
+        "Short Name": "Shuri", 
+        "Class": "Tech", 
+        "Immunities": {"Ability Accuracy Reduction": [], "Shock": [], "Precision": []}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Silk", 
+        "Short Name": "Silk", 
+        "Class": "Science", 
+        "Immunities": {"Rupture": ["90% Duration Reduction"], "Slow": ["90% Duration Reduction"], "Degeneration": ["Synergy [Spider-Gwen, Spider-Man Miles Morales] ? 30-60% Resistance"]}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Silver Centurion", 
+        "Short Name": "Silver Centurion", 
+        "Class": "Tech", 
+        "Immunities": {"Bleed": ["Armor Up"], "Shock": ["Armor Up"]}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Silver Sable", 
+        "Short Name": "Silver Sable", 
+        "Class": "Skill", 
+        "Immunities": {"Reversed Controls": ["#Psychic Shielding"]}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Silver Surfer", 
+        "Short Name": "Silver Surfer", 
+        "Class": "Cosmic", 
+        "Immunities": {"Incinerate": ["100% Resistance"], "Coldsnap": ["100% Resistance"], "Shock": ["100% Resistance"]}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Sorcerer Supreme", 
+        "Short Name": "Sorcerer Supreme", 
+        "Class": "Mystic", 
+        "Immunities": {}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Spider-Gwen", 
+        "Short Name": "Spider-Gwen", 
+        "Class": "Science", 
+        "Immunities": {"Degeneration": ["Synergy [Silk] ? 30-60% Resistance"]}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Spider-Ham", 
+        "Short Name": "Spider-Ham", 
+        "Class": "Science", 
+        "Immunities": {"Degeneration": ["15-100%"]}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Spider-Man (Classic)", 
+        "Short Name": "Spider-Man", 
+        "Class": "Science", 
+        "Immunities": {}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Spider-Man (Miles Morales)", 
+        "Short Name": "Spider-Man", 
+        "Class": "Science", 
+        "Immunities": {"Degeneration": ["Synergy [Silk] ? 30-60% Resistance"]}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Spider-Man (Stark Enhanced)", 
+        "Short Name": "Spider-Man", 
+        "Class": "Tech", 
+        "Immunities": {}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Spider-Man (Stealth Suit)", 
+        "Short Name": "Spider-Man", 
+        "Class": "Skill", 
+        "Immunities": {}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Spider-Man (Supreme)", 
+        "Short Name": "Spider-Man", 
+        "Class": "Mystic", 
+        "Immunities": {}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Spider-Man (Symbiote)", 
+        "Short Name": "Spider-Man", 
+        "Class": "Cosmic", 
+        "Immunities": {}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Spider-Man 2099", 
+        "Short Name": "Spider-Man", 
+        "Class": "Science", 
+        "Immunities": {"Buffs": []}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Spider-Punk", 
+        "Short Name": "Spider-Punk", 
+        "Class": "Science", 
+        "Immunities": {"Concussion": [], "Rupture": [], "Reversed Controls": ["Synergy [Prowler] & Pre-Fight ? Controls are Inverted"], "Stun": ["Synergy [Shathra] & Wasp-Totem ? While Counter-Evade Cooldown active"]}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Spiral", 
+        "Short Name": "Spiral", 
+        "Class": "Mystic", 
+        "Immunities": {"Falter": [], "Reversed Controls": ["Synergy [Rogue, Gambit]"], "Shock": ["Dupe, 0-150% Duration Reduction, based on Fervor"], "Incinerate": ["Dupe, 0-150% Duration Reduction, based on Fervor"], "Poison": ["Dupe, 0-150% Duration Reduction, based on Fervor"]}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Spot", 
+        "Short Name": "Spot", 
+        "Class": "Science", 
+        "Immunities": {"Stun": ["While Untouchable"], "Buffs": ["SP1 ? 10s"], "Bleed": ["Synergy [Purgatory] & Synergy [Mephisto, The Hood, Magik, Dormammu]"]}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Squirrel Girl", 
+        "Short Name": "Squirrel Girl", 
+        "Class": "Skill", 
+        "Immunities": {}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Star-Lord", 
+        "Short Name": "Star-Lord", 
+        "Class": "Tech", 
+        "Immunities": {}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Storm", 
+        "Short Name": "Storm", 
+        "Class": "Mutant", 
+        "Immunities": {"Shock": [], "Incinerate": ["Synergy [Storm Pyramid X]"], "Coldsnap": ["Synergy [Storm Pyramid X]"]}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Storm (Pyramid X)", 
+        "Short Name": "Storm", 
+        "Class": "Mutant", 
+        "Immunities": {"Shock": ["Lightning Tempest ? 100% Resistance"], "Coldsnap": ["Ice Tempest"], "Frostbite": ["Ice Tempest"]}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Stryfe", 
+        "Short Name": "Stryfe", 
+        "Class": "Mutant", 
+        "Immunities": {"Reversed Controls": ["#Psychic Shielding"]}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Summoned Symbiote", 
+        "Short Name": "Summoned Symbiote", 
+        "Class": "Superior", 
+        "Immunities": {}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Sunspot", 
+        "Short Name": "Sunspot", 
+        "Class": "Mutant", 
+        "Immunities": {"Incinerate": []}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Super-Skrull", 
+        "Short Name": "Super-Skrull", 
+        "Class": "Cosmic", 
+        "Immunities": {"Incinerate": [], "Shock": []}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Superior Iron Man", 
+        "Short Name": "Super. Iron Man", 
+        "Class": "Cosmic", 
+        "Immunities": {"Bleed": ["50% Reistance, +15% per unique Superior Buff"], "Incinerate": ["50% Reistance, +15% per unique Superior Buff"], "Shock": ["50% Reistance, +15% per unique Superior Buff"]}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Symbiote Supreme", 
+        "Short Name": "Symbiote Supreme", 
+        "Class": "Mystic", 
+        "Immunities": {}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Taskmaster", 
+        "Short Name": "Taskmaster", 
+        "Class": "Skill", 
+        "Immunities": {"Debuffs": ["After 10 Debuffs"]}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Terrax", 
+        "Short Name": "Terrax", 
+        "Class": "Cosmic", 
+        "Immunities": {"Shock": [], "Bleed": [], "Power Burn": ["Against #Metal"], "Power Drain": ["Against #Metal"], "Power Steal": ["Against #Metal"], "Power Lock": ["Against #Metal"], "Enervate": ["Against #Metal"]}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Thanos", 
+        "Short Name": "Thanos", 
+        "Class": "Cosmic", 
+        "Immunities": {}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Thanos (Deathless)", 
+        "Short Name": "Thanos (Deathless)", 
+        "Class": "Cosmic", 
+        "Immunities": {"Coldsnap": [], "Frostbite": [], "Poison": [], "Power Burn": ["Synergy [Vision (Deathless)]"], "Power Drain": ["Synergy [Vision (Deathless)]"]}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "The Champion", 
+        "Short Name": "The Champion", 
+        "Class": "Cosmic", 
+        "Immunities": {"Fate Seal": ["Dupe"], "Heal Block": ["Dupe"], "Petrify": ["Dupe"], "Regeneration Rate Modification": ["Dupe & Except Poison"]}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "The Destroyer", 
+        "Short Name": "The Destroyer", 
+        "Class": "Mystic", 
+        "Immunities": {"Slow": [], "Armor Break": [], "Poison": [], "Bleed": [], "Infuriate": [], "Intimidate": [], "Reversed Controls": ["#Psychic Shielding"]}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "The Hood", 
+        "Short Name": "The Hood", 
+        "Class": "Mystic", 
+        "Immunities": {"Stun": ["Dupe & While Invisible"], "Bleed": ["Synergy [Purgatory]"]}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "The Leader", 
+        "Short Name": "The Leader", 
+        "Class": "Science", 
+        "Immunities": {"Poison": []}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "The Overseer", 
+        "Short Name": "The Overseer", 
+        "Class": "Science", 
+        "Immunities": {"Poison": [], "Nullify": [], "Fate Seal": [], "Stagger": [], "Stun": ["Auto-Block"], "Neutralize": ["Synergy [Spiderman Supreme]"], "Reversed Controls": ["Synergy [Hulk, Hulk Immortal, Hulk Ragnarok, Joe Fixit]"]}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "The Serpent", 
+        "Short Name": "The Serpent", 
+        "Class": "Cosmic", 
+        "Immunities": {"Stun": ["Dupe & During Special Attacks"], "Power Lock": [], "Special Lock": [], "Heal Block": [], "Fate Seal": [], "Ability Power Rate": ["Cant be reduced below 50% by non-Mystic Champions"], "Coldsnap": [], "Bleed": ["90% Duration Reduction"], "Power Burn": ["60% Resistance"], "Power Drain": ["60% Resistance"], "Combat Power Rate Reduction": ["Cant be reduced"], "Instant Damaging Effects": ["20% Resistance per Dread"]}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Thing", 
+        "Short Name": "Thing", 
+        "Class": "Science", 
+        "Immunities": {"Bleed": [], "Shock": [], "Armor Break": [], "Armor Shatter": [], "Nullify": [], "Stagger": [], "Fate Seal": []}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Thor", 
+        "Short Name": "Thor", 
+        "Class": "Cosmic", 
+        "Immunities": {"Shock": ["40% Resistance"]}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Thor (Jane Foster)", 
+        "Short Name": "Thor", 
+        "Class": "Mystic", 
+        "Immunities": {"Shock": ["100% Resistance & 20% Against Science"]}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Thor (Ragnarok)", 
+        "Short Name": "Thor", 
+        "Class": "Skill", 
+        "Immunities": {"Shock": ["90% Duration Reduction"]}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Tigra", 
+        "Short Name": "Tigra", 
+        "Class": "Mystic", 
+        "Immunities": {}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Titania", 
+        "Short Name": "Titania", 
+        "Class": "Science", 
+        "Immunities": {"Buffs": [], "Bleed": ["Synergy [Absorbing Man]"]}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Toad", 
+        "Short Name": "Toad", 
+        "Class": "Mutant", 
+        "Immunities": {"Poison": []}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Ultron", 
+        "Short Name": "Ultron", 
+        "Class": "Tech", 
+        "Immunities": {"Bleed": [], "Poison": [], "Slow": [], "Ability Accuracy Reduction": ["Abilities unaffected by AAR"], "Incinerate": ["Dupe ? 25-80% Duration Reduction"], "Shock": ["Dupe ? 25-80% Duration Reduction"]}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Ultron (Classic)", 
+        "Short Name": "Ultron", 
+        "Class": "Tech", 
+        "Immunities": {"Bleed": [], "Poison": []}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Unstoppable Colossus", 
+        "Short Name": "Unst. Colossus", 
+        "Class": "Mystic", 
+        "Immunities": {"Bleed": [], "Reversed Controls": ["#Psychic Shielding"]}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Valkyrie", 
+        "Short Name": "Valkyrie", 
+        "Class": "Skill", 
+        "Immunities": {"Stun": ["Dupe & 1-4+ Bulwark"]}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Venom", 
+        "Short Name": "Venom", 
+        "Class": "Cosmic", 
+        "Immunities": {"Power Drain": ["Against Tech & Klyntar Buff"], "Power Burn": ["Against Tech & Klyntar Buff"]}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Venom The Duck", 
+        "Short Name": "Venom The Duck", 
+        "Class": "Cosmic", 
+        "Immunities": {}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Venompool", 
+        "Short Name": "Venompool", 
+        "Class": "Cosmic", 
+        "Immunities": {"Power Drain": ["Against Tech"], "Power Burn": ["Against Tech"], "Shock": ["Against Tech"], "Armor Break": ["Against Tech"], "Special Lock": ["Synergy [Spider-man Supreme]"], "Incinerate": ["Synergy [Red Hulk, Sunspot, Human Torch] & Against Tech"]}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Vision", 
+        "Short Name": "Vision", 
+        "Class": "Tech", 
+        "Immunities": {"Bleed": [], "Poison": []}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Vision (Aarkus)", 
+        "Short Name": "Vision", 
+        "Class": "Cosmic", 
+        "Immunities": {"Power Drain": ["80% Resistance"], "Power Burn": ["80% Resistance"], "Power Steal": ["80% Resistance"], "Power Lock": ["50% Resistance"]}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Vision (Age Of Ultron)", 
+        "Short Name": "Vision", 
+        "Class": "Tech", 
+        "Immunities": {"Bleed": [], "Poison": []}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Vision (Deathless)", 
+        "Short Name": "Vision (Deathless)", 
+        "Class": "Tech", 
+        "Immunities": {"Bleed": [], "Poison": [], "Coldsnap": [], "Frostbite": [], "Stun": ["While Phasing"], "Reversed Controls": ["Synergy [Thanos (Deathless)]"]}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Viv Vision", 
+        "Short Name": "Viv Vision", 
+        "Class": "Tech", 
+        "Immunities": {"Poison": [], "Bleed": [], "Nullify": ["Armor Up"], "Fate Seal": ["Armor Up"], "Reversed Controls": ["Fury from SP3 active"]}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Void", 
+        "Short Name": "Void", 
+        "Class": "Science", 
+        "Immunities": {"Incinerate": []}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Vox", 
+        "Short Name": "Vox", 
+        "Class": "Cosmic", 
+        "Immunities": {"Poison": [], "Power Burn": [], "Power Drain": [], "Power Lock": [], "Special Lock": []}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Vulture", 
+        "Short Name": "Vulture", 
+        "Class": "Tech", 
+        "Immunities": {"Incinerate": [], "Shock": ["Synergy [Kingpin, Yellowjacket, Masacre]"], "Poison": ["Synergy [War Machine, Ultron, Sentry]"], "Nullify": ["Synergy [Prowler]"]}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "War Machine", 
+        "Short Name": "War Machine", 
+        "Class": "Tech", 
+        "Immunities": {}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Warlock", 
+        "Short Name": "Warlock", 
+        "Class": "Tech", 
+        "Immunities": {"Bleed": [], "Poison": [], "Coldsnap": [], "Frostbite": []}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Wasp", 
+        "Short Name": "Wasp", 
+        "Class": "Science", 
+        "Immunities": {}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Werewolf By Night", 
+        "Short Name": "Werewolf By Night", 
+        "Class": "Mystic", 
+        "Immunities": {"Heal Block": [], "Poison": ["90% Duration Reduction"]}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "White Tiger", 
+        "Short Name": "White Tiger", 
+        "Class": "Mystic", 
+        "Immunities": {"Nullify": []}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Wiccan", 
+        "Short Name": "Wiccan", 
+        "Class": "Mystic", 
+        "Immunities": {"Armor Break": [], "Reversed Controls": []}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Winter Soldier", 
+        "Short Name": "Winter Soldier", 
+        "Class": "Skill", 
+        "Immunities": {}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Wolverine", 
+        "Short Name": "Wolverine", 
+        "Class": "Mutant", 
+        "Immunities": {}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Wolverine (Weapon X)", 
+        "Short Name": "Wolverine X", 
+        "Class": "Mutant", 
+        "Immunities": {"Stun": ["Berserk Rage"], "Regeneration Rate Modification": [], "Bleed": ["50% Resistance"]}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Wolverine (X-23)", 
+        "Short Name": "Wolverine (X-23)", 
+        "Class": "Mutant", 
+        "Immunities": {}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Wong", 
+        "Short Name": "Wong", 
+        "Class": "Mystic", 
+        "Immunities": {}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Yellowjacket", 
+        "Short Name": "Yellowjacket", 
+        "Class": "Science", 
+        "Immunities": {}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }, 
+    {
+        "Champion Name": "Yondu", 
+        "Short Name": "Yondu", 
+        "Class": "Tech", 
+        "Immunities": {}, 
+        "Emplacements Photos": "", 
+        "Photos": 
+    }
+]
