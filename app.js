@@ -35,26 +35,32 @@ fetch('data.json')
 
             // Parcourir les immunités
             for (const [immunite, details] of Object.entries(personnage.immunite)) {
-                // Créer un élément pour chaque immunité
                 const immuniteElement = document.createElement('p');
                 immuniteElement.textContent = immunite; // Affiche juste le nom de l'immunité (ex: "Poison")
 
-                // Ajouter un événement au clic pour afficher les détails
-                immuniteElement.addEventListener('click', () => {
-                    // Si les détails ne sont pas vides, les afficher
-                    if (details.length > 0) {
-                        const detailsElement = document.createElement('span');
-                        detailsElement.textContent = `: ${details.join(", ")}`;
-                        immuniteElement.appendChild(detailsElement);
-                    } else {
-                        // Si aucun détail, afficher "Aucun détail"
-                        const noDetails = document.createElement('span');
-                        noDetails.textContent = ": Aucun détail";
-                        immuniteElement.appendChild(noDetails);
-                    }
+                // Si l'immunité a des détails (une valeur spécifique)
+                if (details.length > 0) {
+                    // Créer un lien cliquable pour afficher les détails
+                    const detailsElement = document.createElement('span');
+                    detailsElement.style.color = 'blue';
+                    detailsElement.style.cursor = 'pointer';
+                    detailsElement.textContent = ` (${details.join(", ")})`; // Affiche les détails après le nom de l'immunité
+                    immuniteElement.appendChild(detailsElement);
 
-                    immuniteElement.style.color = 'blue'; // Change la couleur pour signaler que c'est cliquable
-                });
+                    // Ajouter un événement de clic pour afficher plus d'informations si besoin
+                    detailsElement.addEventListener('click', () => {
+                        // Afficher les détails complets lorsque l'on clique
+                        const fullDetails = document.createElement('span');
+                        fullDetails.textContent = ` : ${details.join(", ")}`;
+                        immuniteElement.appendChild(fullDetails);
+                        immuniteElement.style.color = 'green'; // Change la couleur pour signaler que c'est cliquable
+                    });
+                } else {
+                    // Si l'immunité n'a pas de détail spécifique, afficher "Aucun détail"
+                    const noDetails = document.createElement('span');
+                    noDetails.textContent = " : Aucun détail";
+                    immuniteElement.appendChild(noDetails);
+                }
 
                 immunitesDiv.appendChild(immuniteElement);
             }
